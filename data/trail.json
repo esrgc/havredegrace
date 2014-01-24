@@ -1,0 +1,804 @@
+var features = {
+	"type": "FeatureCollection",
+	"features": [
+		{ 
+			"index": 1,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.093395, 39.556131]
+			},
+			"properties": {
+				"Photo": "1.jpg",
+				"Category": "red",
+				"Name": "The Lock House", 
+				"Date": "1840", 
+				"Address": "Charles Montgomery Way off Conesteo Street",
+				"Description": "This tour stop is situated on the western bank of the Susquehanna River and was the outlet lock for the Susquehanna & Tidewater Canal. The brick building was the home for the lock tender and his family and also served as an office for the canal trade. The canal traversed 45 miles from this site to Wrightsville, PA. A canal was needed because the river north of Havre de Grace was too shallow and had too many boulders to navigate. The outlet lock is directly in front of the Lock House near the river. In the late 1980’s, the lock was de-silted, remnants of original gates were removed and granite walls were stabilized and straightened. Notice the bridge that pivots to cross the lock. This allowed wagons and mules access to the towpath and wharves on the riverside. Otherwise the bridge stayed open for the barges to pass through. It was reconstructed in 1984 to the original design. Tours of the Susquehanna Museum of Havre de Grace at the Lock House are available to the public April through October. Adjacent to the Lock House grounds are the North Park Trail, a nature hike and McLhinney Park, a children’s playground.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 2,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.09059, 39.553044]
+			},
+			"properties": {
+				"Photo": "2.jpg",
+				"Name": "Philadelphia, Wilmington, & Baltimore Railroad Bridge", 
+				"Date": "1906", 
+				"Address": "Immediately north of the Abraham Jarrett Thomas House",
+				"Description": "The steel-trussed ‘Amtrak’ bridge is eligible for listing on the National Trust for Historic Places. It has a movable center portion which rotates to allow passage of marine traffic taller than 50’. It is opened an average of five to eight times a year, a feat accomplished by approximately 25 workers who walk along the rails to the center, split into two groups on either side of the center span and manually swing the bridge open. The original bridge at this location was constructed on the stone pilings visible behind the Abraham Jarrett Thomas House. That bridge was built for railroad traffic and later converted to a one way vehicular toll bridge. When a second deck was added in the 1920’s to afford travel in both directions, it became the only double-decked bridge in the country. The bridge was dismantled during WWII. There was a local objection to this, but it was said that the iron was needed for the war effort.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 3,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.09087106, 39.55219354]
+			},
+			"properties": {
+				"Name": "Abraham Jarrett Thomas House", 
+				"Date": "1834", 
+				"Address": "501 St. John Street",
+				"Description": "Originally this waterfront property belonged to William B. Stokes, son of Havre de Grace&#39;s founding father. The property was purchased by the Havre de Grace Ferry Company in 1818 to be used as a link on the route from Baltimore to Philadelphia. The ferry crossing was nearby. Later, this structure became the residence of Abraham Jarrett Thomas, a local banker. From 1856 to the early 1940&#39;s it served as a hotel. Known as the Lafayette Hotel, it was 	&ldquo;home away from home&rdquo; for many horse racing enthusiasts attending the Havre de Grace Race Track, &ldquo;The Graw&rdquo;[1] (1912-1950). This building is home to the Joseph L. Davis Post of the American Legion.",
+				"Footnote": "[1]The Graw - The Havre de Grace Race Track&#39;s nickname came from the mispronunciation of Havre de Grace as &ldquo;Havre de Graw&rdquo;. The Graw was a major one-mile thoroughbred track which featured such horses as the great Man O&#39; War, Triple Crown winner Citation and the beloved Seabiscuit."
+			}
+		},
+		{ 
+			"index": 4,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.09193905, 39.5514785]
+			},
+			"properties": {
+				"Category": "red",
+				"Name": "The Matilda O&#39;Neil House", 
+				"Date": "1822", 
+				"Address": "420 North Union Avenue",
+				"Description": "In 1822 Lt. John O&#39;Neill[2] the hero of Havre de Grace, gave this house to his daughter Matilda as a wedding present. During the War of 1812, Matilda, 15, had her father&#39;s life spared at the hands of British Admiral George Cockburn. For her courage she was given a gold snuff box by this commander of the British attack upon Havre de Grace.",
+				"Footnote": "[2]John O&#39;Neil -  John O&#39;Neill is considered to be one of the most historically significant figures in the history of Havre de Grace because of his role in the war of 1812. On May 3, 1813, the British, led by Admiral George Cockburn, sailed toward Havre de grace after burning Principio Furnace, an iron foundry in Perryville. Havre de Grace had for defense a few cannons and some militia men. Lieutenant John O&#39;Neill, the only officer in the area, responded to the alarm by firing on the British. When the British began firing back, O&#39;Neill&#39;s men fled. The British, 400 in number by some accounts, came ashore, sacked and burned the town and captured O&#39;Neill. Subsequent to his capture and incarceration aboard a British vessel he was released by the intercession of his daughter, Matilda.",
+			}
+		},
+		{ 
+			"index": 5,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.09214132, 39.55131162]
+			},
+			"properties": {
+				"Name": "The Hitchcock/Ruttledge House", 
+				"Date": "1870", 
+				"Address": "416 North Union Avenue",
+				"Description": "Built in a style which combines Greek revival and Italianate influences, the attic story and the roof line of this house are two of its particularly interesting features. There is a row of small rectangular windows with a round arched window in the center. The straight line of the roof is broken by a gable situated over the arched window and there are bracketed overhanging eaves.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 6,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.09213112, 39.55110888]
+			},
+			"properties": {
+				"Name": "The Old Pitcock Hardware Building", 
+				"Date": "c. 1890", 
+				"Address": "408 North Union Avenue",
+				"Description": "Built between 1880 and 1890 by the Bowden family, the building operated as a hardware and sporting goods store. Purchased by the Pitcock family in 1928, it served them as Susquehanna Garage until 1925. This was one of the first car dealership in Harford County. They sold Indiana Trucks, Willys Knight and Overland cars. Later the building became Pitcock Brother's Hardware store from 1925-1988. The second floor was constructed as a spacious residence for the business owners with 12 foot ceilings, inlaid oak floors and leaded glass cabinetry. The current business is Bahouka&#39;s Antiques.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 7,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.09183191, 39.55094265]
+			},
+			"properties": {
+				"Name": "The Old Chesapeake Hotel", 
+				"Date": "1896", 
+				"Address": "400 North Union Avenue",
+				"Description": "A three-story structure build as a hotel and restaurant, The Chesapeake Hotel has been serving patrons for over 100 years. Early pictures show a wide wrap-a-round porch. The hotel&#39;s heyday was during the years of the The Graw racetrack. Al Capone and his associates stayed here while visiting The Graw. In addition to horse trainers and jockeys, the hotel catered to traveling salesmen and railroad workers. After the racetrack closed, the building fell into disrepair. Later it became a rooming house for local veterans. In 1984 after extensive renovation, the restaurant opened as The Crazy Swede. Currently it is Chiapparelli&#39;s, an Italian restaurant, with guest suites on the second floor.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 8,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.091408, 39.550618]
+			},
+			"properties": {
+				"Category": "red",
+				"Name": "A.P. McCombs Building", 
+				"Date": "1900", 
+				"Address": "467 Franklin Streets (east side of Union Avenue; corner of North Union Ave. and Franklin St.)",
+				"Description": "Built in 1900 by A.P. McCombs, founder of The Havre Republican newspaper, now The Record, this building originally had a 3rd story with dormers. A fire in the 1970’s destroyed the top floor and it was never replaced. The Havre de Grace Post Office was located here from 1904 to 1937. After the post office moved to its new building, the main floor served as Pershing Photograph Studio from 1937 to the 1960’s. The second floor was used as a telephone switchboard office.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 9,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.09183981, 39.55059953]
+			},
+			"properties": {
+				"Name": "The Wright-Henry House", 
+				"Date": "c. 1850", 
+				"Address": "322 North Union Avenue",
+				"Description": "This five-bay, two-story frame residence has windows on the street facade composed of six-over-six lights. There are paneled shutters on the first floor and louvered shutters on the second. Both brick chimneys are interior and the roof is hipped. The city hopes to help save this once lovely home that is now in a sadly deteriorated state.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 10,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.091928, 39.550134]
+			},
+			"properties": {
+				"Name": "The Havre de Grace Post Office Building", 
+				"Date": "1936", 
+				"Address": "308 North Union Avenue",
+				"Description": "A fine brick structure with a tin roof and cupola, this was the City’s post office until 1996. Its construction was a WPA project under the F. D. Roosevelt administration. The building was designed in the colonial style as a tribute to the importance of the era to the town. After the post office moved to a new location, this structure was restored in partnership with The Maryland Historical Trust and now serves as doctors’ offices. This is a fine example of adaptive reuse for a beautiful old building.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 11,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.09189004, 39.5499505]
+			},
+			"properties": {
+				"Name": "The Aveilhe-Goldsborough House", 
+				"Date": "1801", 
+				"Address": "300 North Union Avenue",
+				"Description": "Sitting regally on this corner is a stucco-over-brick residence. The style of the design of the home, and particularly the design of the roof, reflect the French ancestry of the original owner, Baptiste Aveilhe. The hipped, slate roof with a steep curve rising to a peak is the most outstanding feature of the house. On the grounds is a brick smokehouse.",
+				"Footnote": "Tangent off the Trail - Turn onto Green Street (west). Notable buildings are: 509/511 & 515/517- brick Second Empire style duplexes (1865), 552 - a Sears Roebuck brick home with unusual front door wind break, 556 - another Second Empire style frame house, and 563 a colorful Queen Anne Victorian stick style home, restored in 2002. At 566/568 there is a concrete block duplex with turret and balcony built by the Burns Brothers, owners of a local carriage factory operating from the late 1800&#39;s to the early 1900&#39;s."
+			}
+		},
+		{ 
+			"index": 12,
+			"type": "Feature", 
+			"geometry": {
+				"Category": "red",
+				"type": "Point", 
+				"coordinates": [-76.09096558, 39.54963984]
+			},
+			"properties": {
+				"Name": "The Thomas Hopkins House", 
+				"Date": "1839", 
+				"Address": "229 North Union Avenue",
+				"Description": "This bricks structure was built as a residence for Dr. Hopkins, a physician. The house has two massive chimneys rising from a hipped roof. Dr. Hopkins was a member of the Maryland Legislature from 1842-1843 and again from 1865-1866. Note the three-story carriage house in the rear.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 13,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.09189929, 39.54959299]
+			},
+			"properties": {
+				"Photo": "13.jpg",
+				"Name": "Henry Harrison Hopkins House", 
+				"Date": "1868", 
+				"Address": "226 North Union Avenue",
+				"Description": "Twenty nine years after The Thomas Hopkins House was built, the son, Henry Harrison, a pharmacist, built this home in the Second Empire style. It is noted in the Maryland Inventory of Historic Properties that the design is &ldquo;an example of the eclectic, even eccentric, style that became popular after the Civil War	&rdquo;. This structure should be examined closely to note some of its unusual features. On the front facade is a decorative wooden panel above the second floor window that penetrates the roofline. Also, the roof is highly irregular having many different planes. There are alternating courses of decorative slate on the roof. Having undergone extensive restoration in 1985, the home has been transformed into a finely appointed bed and breakfast inn named La Cle&#39; D&#39;Or (Key of Gold) Guesthouse.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 14,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.091972, 39.548976]
+			},
+			"properties": {
+				"Name": "Seneca Mansion", 
+				"Date": "1885", 
+				"Address": "200 North Union Avenue",
+				"Description": "On the northwest corner of Union and Pennington Avenues is a Large Victorian residence built by Stephen J. Seneca, a wealthy local entrepreneur. Mr. Seneca, Mayor of Havre de Grace from 1893-1894, was a major influence on Havre de Grace architecture through his friendship with noted architect William Lewis Plack. The Seneca mansion is the largest of the Victorian homes of the grand style in town. Note the copper-covered turrets, the design of the brick chimneys, the bay windows, porches and dormer windows. Originally, a second story porch with turned balusters sat atop the first floor porch. In its original layout the Seneca Mansion consisted of 22 rooms. The exterior fabric is not original to the house.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 15,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.091284, 39.548599]
+			},
+			"properties": {
+				"Name": "Susquehanna Hose Company Division #2", 
+				"Date": "1870", 
+				"Address": "125 North Union Avenue",
+				"Description": "In the late 1800’s and early 1900’s this building was the location of a school, City Hall and the police department. The Havre de Grace fire department has been here since the days of hand-pulled fire carts. The first horse-drawn cart, built by Burns Bros. Carriage Factory, arrived in 1905. The horses were kept in a stable at the present Mergler Electric building. The first motorized vehicles arrived in 1910.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 16,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.0909446953084, 39.5485498080838]
+			},
+			"properties": {
+				"Photo": "16.jpg",
+				"Name": "The Opera House", 
+				"Date": "1870", 
+				"Address": "121 North Union Avenue",
+				"Description": "This city-owned property has seen many uses. Originally the building served simultaneously as Town Hall and schoolhouse. Some remember a library here. Later it became the Opera House and City Hall. A fire in 1920 destroyed the third floor. The second floor is now home to the Tidewater Players, a local theater group. Currently there is talk of rehabbing the first floor to house the Visitor Center and a future Havre de Grace Historical Society.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 17,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.09197, 39.548126]
+			},
+			"properties": {
+				"Category": "red",
+				"Name": "Borneman Building", 
+				"Date": "1857", 
+				"Address": "113 North Union Avenue",
+				"Description": "What is presently an apartment house was formerly the Havre de Grace Methodist Church from 1857 to 1901. At the time it was built it was the largest building in town. Part of the original footprint of the structure can be seen on the north and south elevations. Once can see where the church windows were located.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 18,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.091962, 39.547903]
+			},
+			"properties": {
+				"Name": "St. John’s Episcopal Church", 
+				"Date": "1809", 
+				"Address": "100 North Union Avenue",
+				"Description": "St. John’s is Havre de Grace’s oldest church, recently celebrating its 200th birthday. Financing for the church was through a lottery commissioned in 1802 but construction was not started until 1809. The church was damaged by the British during the War of 1812. In 1832 it was gutted by fire. Changes to the original rectangular building were made c.1863. A slate roof and belfry were added c.1884. Note the Flemish bond brick walls and graceful arched windows.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 19,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.0905429578743, 39.5480342015983]
+			},
+			"properties": {
+				"Category": "red",
+				"Name": "The Carver-Craig House", 
+				"Date": "c. 1855", 
+				"Address": "453 Congress Avenue",
+				"Description": "Here is a quietly elegant structure that is a combination of Greek revival and Italianate styles. It has a slate-covered hip roof with overhanging eaves and a bracketed cornice. A one-bay porch supported by square pillars protects the front entrance. The open porch on the west side and the enclosed porch on the east were added later. The windows are six feet tall with six-over-six lights. Note the interesting old barn behind the house.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 20,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.0898205866415, 39.5473918198593]
+			},
+			"properties": {
+				"Name": "The Maslin House", 
+				"Date": "1860", 
+				"Address": "100 South Washington Street",
+				"Description": "Maslin family members have lived in this home since its construction. Dick Maslin, the great grandfather of the current owner, was a Chesapeake Bay Boat pilot. Another Maslin ancestor was a lock house tender who resided in the Lock House. The fa&#231;ade of this frame cottage is unusual because it is built in the shape of a Greek cross. Note the original four-over-four double-hung windows, still in service after 150 years. The built-in bench seating on the front porch is inviting. The sun porch was enclosed in the 1920&#39;s. The two-story outbuilding was originally servant&#39;s quarters.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 21,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.0901419181853, 39.5473744840356]
+			},
+			"properties": {
+				"Name": "Silverstein House", 
+				"Date": "1865", 
+				"Address": "414 Congress Avenue",
+				"Description": "This grand home is the only Italianate structure in town. Interesting architectural features are the repeated use of segmented arch windows with shutters and the prominent eave brackets. The cupola gracing the roof was constructed in early 2000. It was built in a style similar to the original cupola which had been removed long ago.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 22,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.0904204153796, 39.5473406039847]
+			},
+			"properties": {
+				"Name": "The Miller House", 
+				"Date": "1901", 
+				"Address": "450 and 452 Congress Avenue",
+				"Description": "The most prominent feature of this double house is its mansard roof and four-bay façade. A wide band of overlapping shingles separates the first and second floors. Notice the detail on the dormer windows. This home was built of lumber from a residence that once sat on the site of the present Methodist Church.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 23,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.0908632578657, 39.5473737429953]
+			},
+			"properties": {
+				"Name": "Havre de Grace Methodist Church", 
+				"Date": "1901", 
+				"Address": "101 South Union Avenue",
+				"Description": "This Gothic style church is undoubtedly the most imposing structure in town. Given as a gift to the congregation by Stephen J. Seneca, it is one of several buildings in Havre de Grace designed by Philadelphia architect William Lewis Plack. The building material is random ashlar granite, quarried locally at Port Deposit. The trim is of Indiana limestone. The three arches on the building contain painted and stained glass windows. Note the limestone tracery incorporated as part of the window design. A 1960&#39;s wing on the south side was constructed of granite from the same quarry. Over the years the copper trimming has acquired a rich green patina. As a condition of Mr. Seneca&#39;s gift, the congregation furnished the interior of the church with pews made of white oak while the altar, pulpit and choir loft are of San Domingo mahogany. The exterior front doors slide into pockets in the wall. In 2001, the congregation completed a one million dollar interior renovation made possible by an unexpected gift willed to the church by a Havre de Grace resident.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 24,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.09186, 39.5471]
+			},
+			"properties": {
+				"Name": "The Carver House", 
+				"Date": "1885", 
+				"Address": "115 South Union Avenue",
+				"Description": "Arthur Vosbury built these Victorian Queen Anne and stick style homes as wedding presents for his two children. Mr. Vosbury was manager of the Havre de Grace Branch of the Binghamton, NY DuBois Lumber Company. In early years logs were transported on rafts downriver to the local log pond. At the DuBois mill the logs were used for building materials with even the rafts being taken apart for the lumber. Many structures in town, including these two houses, were framed from the trimmed logs. The exteriors were returned to their original color schemes in 1999 and 2000.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 25,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.091841, 39.547013]
+			},
+			"properties": {
+				"Category": "red",
+				"Name": "The Vosbury House", 
+				"Date": "1889", 
+				"Address": "123 South Union Avenue",
+				"Description": "Arthur Vosbury built these Victorian Queen Anne and stick style homes as wedding presents for his two children. Mr. Vosbury was manager of the Havre de Grace Branch of the Binghamton, NY DuBois Lumber Company. In early years logs were transported on rafts downriver to the local log pond. At the DuBois mill the logs were used for building materials with even the rafts being taken apart for the lumber. Many structures in town, including these two houses, were framed from the trimmed logs. The exteriors were returned to their original color schemes in 1999 and 2000.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 26,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.091943, 39.546786]
+			},
+			"properties": {
+				"Name": "The A.P.McCombs House", 
+				"Date": "c. 1880", 
+				"Address": "120 South Union Avenue",
+				"Description": "This home was built for A.P. McCombs, owner of the Havre de Grace Iron Works, a local newspaper and president of the First National Bank. The house is a picturesque Queen Anne style framed dwelling. The unusual gambrel and gable roof line contains an ornamental bargeboard. Originally there was a veranda across the entire front.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 27,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.091916, 39.546372]
+			},
+			"properties": {
+				"Photo": "27.jpg",
+				"Name": "Spencer-Silver Mansion", 
+				"Date": "1896", 
+				"Address": "200 South Union Avenue",
+				"Description": "This structure, along with the Seneca Mansion and the Vandiver Mansion, is one of the largest historic houses in Havre de Grace built as a private residence. Now a bed and breakfast inn, this random ashlar Port Deposit granite structure is the only High Victorian stone mansion in the city. It contains numerous architectural embellishments: a two-story bay window with curved glass, a tower, a four-gable roof, a dormer and a variety of window shapes and placements. The large veranda has a copper roof but the primary roof is slate. The house was constructed for John Spener, a merchant and foundry owner. Later it was purchased by Charles Silver, owner of a local cannery. Notice the carriage house in the rear, now part of the bed & breakfast inn.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 28,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.091278, 39.546083]
+			},
+			"properties": {
+				"Category": "green",
+				"Name": "The Sappington House", 
+				"Date": "1838", 
+				"Address": "212 South Union Avenue",
+				"Description": "Here we have one of the three brick Greek revival houses built in this block during the construction period of the Susquehanna & Tidewater Canal. This house is painted ox blood red. The front facade has a one-story, two-bay Doric portico with a balustrade and slightly hipped roof. Look closely to see an intricate frieze on the fascia above the porch. This home, along with The Hoke House and The Hall House, reflects the material prosperity which was expected to arise from the canal and railroad.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 29,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.09106, 39.54609]
+			},
+			"properties": {
+				"Name": "The Hoke House", 
+				"Date": "1838", 
+				"Address": "213 South Union Avenue",
+				"Description": "This is the second of three similar brick structures in this block. The roof lines here are probably more nearly original than its neighbor, The Hall House. However there have been alterations to the windows of the third floor. The charming gazebo dates to the early 1900's. It was restored in the late 1980's as a local boy's Eagle Scout project. At the water's edge is the City Yacht Basin and across the channel is Tydings Isand. On the north side of the Yacht Basin is the entry to the Promenade, a boardwalk that follows the shoreline for a half mile ending at the Lighthouse.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 30,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.090832, 39.546002]
+			},
+			"properties": {
+				"Photo": "39.jpg",
+				"Category": "red",
+				"Name": "The Hall House", 
+				"Date": "c. 1835", 
+				"Address": "227 South Union Avenue",
+				"Description": "This is the third of the large brick homes in this block built in the same year. A local historian asserts that the original structure on this site was the home of the City's founder Robert Young Stokes, who died a young man. His widow married a gentleman named Hall and built this home.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 31,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.091236, 39.545356]
+			},
+			"properties": {
+				"Photo": "31.jpg",
+				"Category": "red",
+				"Name": "Vandiver Mansion", 
+				"Date": "1886", 
+				"Address": "391 South Union Avenue",
+				"Description": "Murray Vandiver was State Secretary and Treasurer of Maryland as well as Mayor of Havre de Grace. He built this mansion as a wedding present for his bride. It is a fine example of a large Queen Anne Victorian residence. The scale of the frame structure is evidenced through five multiflued chimneys. In the late 1980's this mansion was restored and converted from apartments to a bed and breakfast inn. During restoration the owners were able to track down and reinstall the missing stained glass windows that had been removed and sold.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 32,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.091138, 39.543634]
+			},
+			"properties": {
+				"Name": "The Colonial Hotel Building", 
+				"Date": "c. 1930", 
+				"Address": "421 South Union Avenue",
+				"Description": "Built by Pearl Mitchell, this was a premier hotel serving Havre de Grace for many years. The hotel closed in the 1950's and the building became Brevin Nursing Home. Its latest use is as a medical office building.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 33,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.090748, 39.538464]
+			},
+			"properties": {
+				"Photo": "33.jpg",
+				"Name": "Tydings Memorial Park", 
+				"Date": "1956", 
+				"Address": "South end of South Union Avenue at Commerce Street",
+				"Description": "Citizens of Havre de Grace own this seven acre park with a magnificent view of the Susquehanna Flats. Originally called Bayside Park it was renamed to honor the City's famous native son, U.S. Senator  Millard E. Tydings (1890-1961). Tydings was a prominent Maryland politician. He was the author of the Philippine Independence Bill. He chaired the Senate Armed Services Committee during its review of Senator Joseph McCarthy's communist charges. Tydings notably labeled McCarthy's charges as 'the most nefarious campaign of half truths and untruths in the history of this Republic.' The park is the scene of various annual events including the 4th of July carnival and fireworks, Seafood Festival and the Havre de Grace Art Show. The charming gazebo dates to the early 1900's. It was restored in the late 1980's as a local boy's Eagle Scout project. At the water's edge is the City Yacht Basin and across the channel is Tydings Island. On the north side of the Yacht Basin is the entry to the Promenade, a boardwalk that follows the shoreline for a haft mile ending at the Lighthouse.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 34,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.090641, 39.537335]
+			},
+			"properties": {
+				"Photo": "34.jpg",
+				"Category": "green",
+				"Name": "The Skipjack Martha Lewis", 
+				"Date": "1955", 
+				"Address": "Docked at Tydings Park Marina",
+				"Description": "The Martha Lewis is one of the last remaining working dredge boats that make up the Chesapeake Bay oyster fleet. The skipjack provides educational and themed sailing excursions and public sightseeing cruises from June through October.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 35,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.087712, 39.538899]
+			},
+			"properties": {
+				"Photo": "35.jpg",
+				"Name": "Bayou Hotel", 
+				"Date": "1920", 
+				"Address": "300 Commerce Street",
+				"Description": "This is a massive four-story fieldstone building constructed with 18 inch thick walls and 14 inch wide wooden beams. The Bayou Hotel opened for business in 1921 with 60 guestrooms with baths. This luxury hotel was well known during the Jazz Age. The hotel was forced to close during the Great Depression after a 1929 fire. It was reborn as a retirement home for Franciscan nuns who added a two-story chapel to the waterfront side of the building and renamed it Bayou Villa. When sold in 1953 it was converted into apartments. After another fire in the early 1970s, the building was abandoned, given to the City of Havre de Grace and sat empty for several years. In 1983 it was restored with assistance by The Maryland Historical Trust. The City sold the building in 1984 to be developed into luxury condominiums.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 36,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.086853, 39.539792]
+			},
+			"properties": {
+				"Photo": "36.jpg",
+				"Category": "red",
+				"Name": "Decoy Museum", 
+				"Date": "est. 1982", 
+				"Address": "215 Giles Street at Market Street (the east end of Giles St. has been renamed R. Madison Mitchell Place and is the entrance to the museum.)",
+				"Description": "This stucco-over-brick structure was originally a service building for the Bayou Hotel and housed an Olympic-sized swimming pool. Its conversion to a museum was started in 1982 by a group of volunteers dedicated to preserving the art of decoy carving. It was rehabilitated, enlarged and opened to the public in 1986. Complete collections of decoys made by R. Madison Mitchell, Charlie Joiner, Charlie Bryant, Bob McGaw and others are on view here. Also displayed are various tools and equipment used in decoy making.  R. Madison Mitchell's shop, where he made his famous decoys, was moved from its site behind the Mitchell home to its present location adjacent to the museum. On the grounds is another entry to the Promenade and a brick walkiway serving as an alternate route to the Maritime Museum and the Concorde Point Lighthouse.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 37,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.087621, 39.539821]
+			},
+			"properties": {
+				"Name": "Chesney-Currier/DeGroat House", 
+				"Date": "1830", 
+				"Address": "825 South Market Street",
+				"Description": "A wood-framed house with a wrap-a-round porch, this was the home of decoy carvers, Captain Billy Chesney and his son-in-law Jim Currier.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 38,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.088018, 39.54014]
+			},
+			"properties": {
+				"Category": "green",
+				"Name": "The Jacksteit House", 
+				"Date": "c. 1850", 
+				"Address": "814 South Market Street",
+				"Description": "Few facts are known about this home's early history. Captain John Millhuff, a prominent citizen of Harve de Grace prior to the war of 1812, may have lived here, putting its construction date much earlier. It is a Federal style home which was occupied by Jane Jacksteit (1917-2007) and her husband Bert from the mid 1970's until Jane's death. Jane is notable as a founding member of the Friends of the Concord Point Lighthouse.",
+				"Footnote": "Neighboring house 810, 820 and 826 Market St. all date between 1830 and 1840."
+			}
+		},
+		{ 
+			"index": 39,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.088077, 39.540492]
+			},
+			"properties": {
+				"Photo": "39.jpg",
+				"Name": "The Currier House", 
+				"Date": "c. 1790", 
+				"Address": "800 South Market Street",
+				"Description": "The central portion of this cottage dates to the 1790's. The front section of the house was a bakery located near The Bayou. It was moved to this location in the 1830's and attached to the original structure. Matthew Currier, a local ferry boat operator, purchased the home at the beginning of the Civil War (1861). The Currier family has resided here for five generations.The interior still has its original layout. This house may have been part of the Underground Railroad, as a passageway is evident in the dining room which connects the basement to the attic. It now operates as a bed & breakfast inn. Nathaniel Currier of Currier & Ives fame was also a member of this family.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 40,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.086043, 39.540463]
+			},
+			"properties": {
+				"Photo": "40.jpg",
+				"Name": "The Maritime Museum", 
+				"Date": "est. 1988", 
+				"Address": "100 Lafayette Street",
+				"Description": "Although this structure is not historic (2001), it is included because of its commitment to Havre de Grace's maritime history. It houses the Chesapeake Wooden Boat Builders School and the Susquehanna Flats Environmental Center.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 41,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.084756, 39.540694]
+			},
+			"properties": {
+				"Name": "Concord Point Lighthouse", 
+				"Date": "1827", 
+				"Address": "Concord and Lafayette Streets",
+				"Photo": "41.jpg",
+				"Description": "Incredibly, this most photographed and painted structure in town was once considered for demolition by the City of Havre de Grace. It was given to the City in 1977 and fell into a severe state of neglect.  Jane Jacksteit was one of five concerned citizens who organized in 1979 to save the lighthouse. This dedicated citizen group, Friends of the Concord Point Lighthouse, restored the lighthouse and more recently the Keeper's Dwelling. The Concord Point Lighthouse is notable for being the oldest continuously operating lighthouse in the country. It is one of eight lighthouses in the northern bay area built by Havre de Grace native John Donahoo. On the grounds is a cannon reportedly used by John O'Neill in his near-solitary attempt to defend Havre de Grace from British attack during the War of 1812.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 42,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.085582, 39.540897]
+			},
+			"properties": {
+				"Name": "The Keeper's Dwelling", 
+				"Date": "c. 1827)", 
+				"Address": "720 Concord Street",
+				"Description": "This is the original light keeper's house built by John Donahoo. John O'Neill was awarded the position of light keeper for his heroic efforts in defending Havre de Grace from the British. For decades people knew this building as a night club. At various times it was The Ebb Tide, The Home Stretch and The Lighthouse Inn. After it fell into disuse and disrepair, Havre de Grace officials called for its demolition. The building was saved by the efforts of the Friends of the Concord Point Lighthouse and restored with guidance from The Maryland Historical Trust. It now stands proudly in its rightful place as companion to the Concord Point Lighthouse.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 43,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.089915, 39.545915]
+			},
+			"properties": {
+				"Name": "O'Neill House", 
+				"Date": "c. 1865", 
+				"Address": "218 South Washington Street",
+				"Description": "This house is of considerable importance to Havre de Grace because it was the home of John O'Neill and remained in the O'Neill family for 131 years. The architecture is a mixture of gothic, classical and colonial revival. Notice the elaborate bargeboards with pierced design along the gables with finials and pendants on the gable ends. The four-bay front porch with its Ionic columns, the pedimented dormers and the flaring, corbelled chimneys add to the home's presence on the street. Portions of the home may date from 1841.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 44,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.088437, 39.547934]
+			},
+			"properties": {
+				"Photo": "44.jpg",
+				"Category": "green",
+				"Name": "The Old Ordinary", 
+				"Date": "c. 1800", 
+				"Address": "100 St. John Street",
+				"Description": "The lot on which this structure resides was leased by Gabriel Peterson Vanhorn in 1782 from the town's founder, Robert Young Stokes. The term 'ordinary' was another word for tavern. The building has a French colonial appearance with its second story wrap-a-round porch and hipped roof with gabled dormers. The Old Ordinary was Beautifully restored in 1986.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 45,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.09002, 39.548645]
+			},
+			"properties": {
+				"Name": "Sawyer Building", 
+				"Date": "1840", 
+				"Address": "142 North Washington Street",
+				"Description": "Located on the railroad line which ran down Pennington Avenue (formerly St. Clair Street) to the river, the Sawyer Building may well have seen service as a hospital or hotel during the Civil War. It is a three-and-a-half story brick commercial building with a classically proportioned facade. The attic story contains a frieze of narrow rectangular windows characteristic of Greek revival architecture. There is a massive, multiflue chimney rising from the north end. It has recently been renovated for a wine bar business on the street level and two large apartments above.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 46,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.088609, 39.548953]
+			},
+			"properties": {
+				"Photo": "46.jpg",
+				"Category": "green",
+				"Name": "Seneca Cannery", 
+				"Date": "c. 1880", 
+				"Address": "201 St. John Street",
+				"Description": "Stephen J. Seneca built this brick and granite structure for his fruit packing and can manufacturing operation that sold under the Red Cross label. The building was designed by John Donahoo. This was a perfect site for a cannery since it was located at the water's edge and had adjacent railroad tracks for shipping. The railroad tracks ran down Pennington Avenue (then St. Clair Street) to the river. The trains were then ferried across the river to the tracks on the other side. Boats, laden with foods to be processed, docked at the cannery piers. The finished goods were shipped to their destination by boat or train. Red Cross canned goods were purchased by the U.S. government from the Seneca factory during the Spanish-American War (1898). The business was later sold to Edward Stockham who canned tomatoes and other vegetables grown on Maryland's Eastern shore. The goods were shipped to Baltimore and Philadelphia under the Edward Stockham, Inc. label. On the north side and rear of the building are massive granite support buttresses not to be missed.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 47,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.08999, 39.548927]
+			},
+			"properties": {
+				"Name": "Maryland House", 
+				"Date": "1903", 
+				"Address": "200 North Washington Street",
+				"Description": "The gilded turret on this four-story building is a well known symbol of downtown Havre de Grace. Soon after construction the building became a rooming house. Restored in 1989, it is now apartments. Immediately north the adjacent four-story frame section is of an earlier date as noted on the 1885 Sanborne map.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 48,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.089961, 39.54927]
+			},
+			"properties": {
+				"Category": "green",
+				"Name": "The Newmeyer Building", 
+				"Date": "1896", 
+				"Address": " 220 North Washington Street",
+				"Description": "In 1878 Sol Newmeyer moved his family and fine clothing business from Baltimore to bustling Havre de Grace. He began his business in another structure on this site. By 1896 he was prosperous enough to build a new building. He hired Eli Sentman, the contractor for other grand buildings in town, to erect a structure that would house his store on the first floor and a finely appointed two-story family residence above. It would serve the family business for over 60 years. The building is notable for projecting plate glass display windows surrounded by panels of dark green marble quarried in Cardiff, MD. Notice the marble panels below the windows facing the street are of a substitute material. The original marble was replaced on these locations after being hit by a car. On the second floor see a fanciful balcony and small oval window. The building was originally three stories, but the top floor was lost in a 1930 fire.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 49,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.08962, 39.549305]
+			},
+			"properties": {
+				"Category": "green",
+				"Name": "The Masonic Temple", 
+				"Date": "1906", 
+				"Address": "215 North Washington Street",
+				"Description": "This three-story brick building, known as The Flat Iron Building when constructed, is the home of Susquehanna Lodge 130 A.F & A.M, chartered in 1867. Arthur Vosbury was the first Worshipful Master. The Lodge has resided here since the building's constuction and now occupies the third floor. There are rented offices and shops on the first and second floors.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 50,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.089961, 39.549425]
+			},
+			"properties": {
+				"Name": "Rodger's House ", 
+				"Date": "1787", 
+				"Address": "226 North Washington Street",
+				"Description": "Undoubtedly the most significant structure in the city is this brick Georgian townhouse. It is probably the oldest building in Havre de Grace. George Washington made several stop here in 1787 and 1795. The most important historic attribute is ownership by the Rodgers family of U.S. Navy fame for almost 100 years. The original modification for commercial use occurred in the early 1900's. It was restored in 1981 to permit a continued commercial use of its ground floor. The old house also provides a clue to the aspirations of early town promoters. There are no windows on the south and north elevations suggesting that high-density town development was anticipated very early in Havre de Grace's history.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 51,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.089972, 39.549603]
+			},
+			"properties": {
+				"Category": "green",
+				"Name": "Goll's Bakery", 
+				"Date": "c. 1970", 
+				"Address": "234 North Washington St.",
+				"Description": "Originally this three-bay, stucco-over-brick structure was built by James Fahey as a hotel. Though small by today's standards, the Fahey Hotel consisted of dining/tavern rooms on the ground floor with sleeping quarters above. Pohl's Bakery followed and then in the early 1930's it became Goll's Bakery. This is the longest running bakery to remain in one family in Havre de Grace. The simple lines of this building are embellished by the four wooden pilasters gracing the facade.",
+				"Footnote": ""
+			}
+		}
+	]
+};

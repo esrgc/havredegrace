@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <title>Havre de Grace Self-Guided Tour</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css">
+        <script src="js/jquery-1.8.2.min.js"></script>
+        <script src="js/jquery.mobile-1.2.0.min.js"></script>
+        <link rel="stylesheet" href="css/style.mobile.css" type="text/css">
+        <link rel="stylesheet" href="css/style.mobile-jq.css" type="text/css">
+		<script src="data/trail.json"></script>
+        <script src="js/OpenLayers.mobile.js"></script>
+		<script src="js/mobile-base.js"></script>
+		<script src="js/mobile-jq.js"></script>
+    </head>
+    <script>
+    	setTimeout(function () {   window.scrollTo(0, 1); }, 1000);
+    </script>
+<body style="=background-color:#222222">
+	<div data-role="page" data-theme="c">
+		<br><br>
+		<div style="margin-left: 8%; width:84%">
+			<img src="media/logo.png" style="width:100%; margin-left:0%;" id="logo">
+			<script>
+				$('#logo').hide().fadeIn(2000);
+			</script>
+			<br><br><br><br>
+			<div class="buttonGroup" data-role="controlgroup">
+				<a href="#mappage" data-role="button" data-theme="b" onclick="mobilejq()">
+					<p>Start Your Tour</p>
+				</a>
+				<a href="about.html" data-role="button" data-theme="b">
+					<p>About Us</p>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id="mappage" data-theme="a">
+		<div id="popuplocation"></div>
+		<script>
+			var url=document.URL;
+			var i=0;
+			for(i; i<url.length; i++){
+				if(url[i]=="#"){
+					break;
+				}
+				if(i==url.length-1){
+					i=-1;
+					break;
+				}
+			}
+			if(i!=-1){
+				mobilejq();
+			}
+		</script>
+		<div data-role="popup" id="popupBasic""></div>
+		<div data-role="content">
+			<div id="map"></div>
+		</div>
+
+		<div data-role="footer" data-theme="b">
+			<a href="#" id="locate" data-icon="locate" data-role="button">Locate</a>
+		</div>
+		<div id="navigation" data-role="controlgroup" data-type="vertical">
+			<a href="#" data-role="button" data-icon="plus" id="plus" data-iconpos="notext"></a>
+			<a href="#" data-role="button" data-icon="minus" id="minus" data-iconpos="notext"></a>
+		</div>
+	</div>
+</body>
+</html>
