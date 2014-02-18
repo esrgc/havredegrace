@@ -835,6 +835,105 @@ var features = {
 				"Description": "Originally this three-bay, stucco-over-brick structure was built by James Fahey as a hotel. Though small by today's standards, the Fahey Hotel consisted of dining/tavern rooms on the ground floor with sleeping quarters above. Pohl's Bakery followed and then in the early 1930's it became Goll's Bakery. This is the longest running bakery to remain in one family in Havre de Grace. The simple lines of this building are embellished by the four wooden pilasters gracing the facade.",
 				"Footnote": ""
 			}
+		},
+		{ 
+			"index": 52,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.089672, 39.54996]
+			},
+			"properties": {
+				"Photo": "52.jpg",
+				"Category": "green",
+				"Name": "The Barnes-Boyd House", 
+				"Date": "c. 1820", 
+				"Address": "301 St. John St.",
+				"Description": "A fieldstone building covered in stucco, this house is an example of the random rubble structures, common in Pennsylvania, that are often seen in Hartford County. Only one or two of these remain in Havre de Grace.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 53,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.090283, 39.550159]
+			},
+			"properties": {
+				"Photo": "53.jpg",
+				"Category": "green",
+				"Name": "The Poplar House", 
+				"Date": "c. 1835", 
+				"Address": "308 St. John St.",
+				"Description": "This is one of the very few brick houses built in the Federal style remaining in Havre de Grace. Covered with stucco and later vinyl siding, it has none of the original woodwork or trim remaining. This building is very similar in type to the Rodgers House (tour stop 50), and may have been built earlier than 1835.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 54,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.090104, 39.55037]
+			},
+			"properties": {
+				"Photo": "54.jpg",
+				"Name": "First National Bank Building", 
+				"Date": "1905", 
+				"Address": "321 St. John St.",
+				"Description": "This imposing granite structure projects stability and security, desirable qualities for a bank. The back expands in a pair of joined towers and there is an interesting overhang covering the side entrance. Note the smaller building of similar style next door. Unfortantely it is built so close to the bank that it obstructs the sight of the towers in back.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 55,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.090214, 39.550499]
+			},
+			"properties": {
+				"Photo": "55.jpg",
+				"Name": "The State Theater", 
+				"Date": "1927", 
+				"Address": "325 St. John St.",
+				"Description": "A beloved Havre de Grace landmark, the State Theater was a 500 seat movie theater built by Baltimore-based exhibitor, Durkee Enterprises. The brick structure was design in the style of many theaters of the day. Havre de Grace, being the largest city in the area, had two movie houses by 1908, the Willou and the Bijou. Old postcards show the Willou to the left of the First National Bank and the Bijou, next door to the Willou. Both were replaced by The State Theater. Many Havre de Gracians have fond memories of seeing movies and attending the annual children's Christmas parties held here in the 1940's and 50's. The theater closed around 1960. It is now home to a church.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 56,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.090526, 39.550493]
+			},
+			"properties": {
+				"Photo": "56.jpg",
+				"Name": "Lyon's Pharmacy Building", 
+				"Date": "1880 - 1892 wing", 
+				"Address": "238 and 330 St. John St.",
+				"Description": "Built as a commercial structure of simple classical design, this building has house the Lyon's family business for four generations. George Lyon operated a ship's chandlery in the main block (328) in the 1880's. General provisions from his store were used to supply the large fishing floats which caught shad and herring in the Susquehanna River and upper Chesapeake Bay. The family opened a pharmacy in 1894 in the new wing (330). The building is located on a wedge-shaped log on the corner of St. John Street and Lodge Lane. Modern brick veneer conceals the original brick on the front of the building, and plate glass windows have been added. The tall second story windows have stone sills with arched brick lintels above the windows of the wing (330). Don't miss the Coca Cola 'ghost sign' on the back of the buidling.",
+				"Footnote": ""
+			}
+		},
+		{ 
+			"index": 57,
+			"type": "Feature", 
+			"geometry": {
+				"type": "Point", 
+				"coordinates": [-76.090381, 39.550689]
+			},
+			"properties": {
+				"Photo": "57.jpg",
+				"Name": "The Havre de Grace Banking and Trust Building", 
+				"Date": "1924", 
+				"Address": "331 St. John St.",
+				"Description": "In the 1860's a grain mill called Edgewood Roller Mill stood at this site. It was one of the main suppliers of grain to 'The Graw' Racetrack. The Havre de Grace Banking and Trust was built over the foundation of the old mill and served the community for 50 years. In the 1970's the building was used as a beauty school. Later it was an antique store with two apartments above. In 1985 the building was renovated into a restaurant which became MacGregor's. The facade has smooth-faced blocks of limestone over a marble foundation. Built in the Renaissance revival style it may have designed by William Lewis Plack, the same architect who designed the Havre de Grace Methodist Church (tour stop 23). It is a polygonal-shaped building ornamented with copper fenestration.",
+				"Footnote": ""
+			}
 		}
+
 	]
 };
