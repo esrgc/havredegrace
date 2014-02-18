@@ -27,6 +27,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "2.jpg",
+				"Category": "red",
 				"Name": "Philadelphia, Wilmington, & Baltimore Railroad Bridge", 
 				"Date": "1906", 
 				"Address": "Immediately north of the Abraham Jarrett Thomas House",
@@ -43,6 +44,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "3.jpg",
+				"Category": "red",
 				"Name": "Abraham Jarrett Thomas House", 
 				"Date": "1834", 
 				"Address": "501 St. John Street",
@@ -76,6 +78,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "5.jpg",
+				"Category": "red",
 				"Name": "The Hitchcock/Ruttledge House", 
 				"Date": "1870", 
 				"Address": "416 North Union Avenue",
@@ -92,6 +95,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "6.jpg",
+				"Category": "red",
 				"Name": "The Old Pitcock Hardware Building", 
 				"Date": "c. 1890", 
 				"Address": "408 North Union Avenue",
@@ -108,6 +112,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "7.jpg",
+				"Category": "red",
 				"Name": "The Old Chesapeake Hotel", 
 				"Date": "1896", 
 				"Address": "400 North Union Avenue",
@@ -141,6 +146,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "9.jpg",
+				"Category": "red",
 				"Name": "The Wright-Henry House", 
 				"Date": "c. 1850", 
 				"Address": "322 North Union Avenue",
@@ -157,6 +163,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "10.jpg",
+				"Category": "red",
 				"Name": "The Havre de Grace Post Office Building", 
 				"Date": "1936", 
 				"Address": "308 North Union Avenue",
@@ -173,6 +180,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "11.jpg",
+				"Category": "red",
 				"Name": "The Aveilhe-Goldsborough House", 
 				"Date": "1801", 
 				"Address": "300 North Union Avenue",
@@ -190,6 +198,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "12.jpg",
+				"Category": "red",
 				"Name": "The Thomas Hopkins House", 
 				"Date": "1839", 
 				"Address": "229 North Union Avenue",
@@ -206,6 +215,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "13.jpg",
+				"Category": "red",
 				"Name": "Henry Harrison Hopkins House", 
 				"Date": "1868", 
 				"Address": "226 North Union Avenue",
@@ -222,6 +232,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "14.jpg",
+				"Category": "red",
 				"Name": "Seneca Mansion", 
 				"Date": "1885", 
 				"Address": "200 North Union Avenue",
@@ -238,6 +249,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "15.jpg",
+				"Category": "red",
 				"Name": "Susquehanna Hose Company Division #2", 
 				"Date": "1870", 
 				"Address": "125 North Union Avenue",
@@ -254,6 +266,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "16.jpg",
+				"Category": "red",
 				"Name": "The Opera House", 
 				"Date": "1870", 
 				"Address": "121 North Union Avenue",
@@ -287,6 +300,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "18.jpg",
+				"Category": "red",
 				"Name": "St. John’s Episcopal Church", 
 				"Date": "1809", 
 				"Address": "100 North Union Avenue",
@@ -320,6 +334,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "20.jpg",
+				"Category": "red",
 				"Name": "The Maslin House", 
 				"Date": "1860", 
 				"Address": "100 South Washington Street",
@@ -336,6 +351,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "21.jpg",
+				"Category": "red",
 				"Name": "Silverstein House", 
 				"Date": "1865", 
 				"Address": "414 Congress Avenue",
@@ -352,6 +368,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "22.jpg",
+				"Category": "red",
 				"Name": "The Miller House", 
 				"Date": "1901", 
 				"Address": "450 and 452 Congress Avenue",
@@ -368,6 +385,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "23.jpg",
+				"Category": "red",
 				"Name": "Havre de Grace Methodist Church", 
 				"Date": "1901", 
 				"Address": "101 South Union Avenue",
@@ -384,6 +402,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "24.jpg",
+				"Category": "red",
 				"Name": "The Carver House", 
 				"Date": "1885", 
 				"Address": "115 South Union Avenue",
@@ -417,6 +436,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "26.jpg",
+				"Category": "red",
 				"Name": "The A.P.McCombs House", 
 				"Date": "c. 1880", 
 				"Address": "120 South Union Avenue",
@@ -433,6 +453,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "27.jpg",
+				"Category": "red",
 				"Name": "Spencer-Silver Mansion", 
 				"Date": "1896", 
 				"Address": "200 South Union Avenue",
@@ -449,7 +470,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "28.jpg",
-				"Category": "green",
+				"Category": "red",
 				"Name": "The Sappington House", 
 				"Date": "1838", 
 				"Address": "212 South Union Avenue",
@@ -466,6 +487,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "29.jpg",
+				"Category": "red",
 				"Name": "The Hoke House", 
 				"Date": "1838", 
 				"Address": "213 South Union Avenue",
@@ -516,6 +538,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "32.jpg",
+				"Category": "red",
 				"Name": "The Colonial Hotel Building", 
 				"Date": "c. 1930", 
 				"Address": "421 South Union Avenue",
@@ -532,6 +555,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "33.jpg",
+				"Category": "red",
 				"Name": "Tydings Memorial Park", 
 				"Date": "1956", 
 				"Address": "South end of South Union Avenue at Commerce Street",
@@ -549,6 +573,7 @@ var features = {
 			"properties": {
 				"Photo": "34.jpg",
 				"Category": "green",
+				"Category": "red",
 				"Name": "The Skipjack Martha Lewis", 
 				"Date": "1955", 
 				"Address": "Docked at Tydings Park Marina",
@@ -565,6 +590,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "35.jpg",
+				"Category": "red",
 				"Name": "Bayou Hotel", 
 				"Date": "1920", 
 				"Address": "300 Commerce Street",
@@ -598,6 +624,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "37.jpg",
+				"Category": "red",
 				"Name": "Chesney-Currier/DeGroat House", 
 				"Date": "1830", 
 				"Address": "825 South Market Street",
@@ -615,6 +642,7 @@ var features = {
 			"properties": {
 				"Photo": "38.jpg",
 				"Category": "green",
+				"Category": "red",
 				"Name": "The Jacksteit House", 
 				"Date": "c. 1850", 
 				"Address": "814 South Market Street",
@@ -631,6 +659,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "39.jpg",
+				"Category": "red",
 				"Name": "The Currier House", 
 				"Date": "c. 1790", 
 				"Address": "800 South Market Street",
@@ -647,6 +676,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "40.jpg",
+				"Category": "red",
 				"Name": "The Maritime Museum", 
 				"Date": "est. 1988", 
 				"Address": "100 Lafayette Street",
@@ -663,6 +693,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "41.jpg",
+				"Category": "red",
 				"Name": "Concord Point Lighthouse", 
 				"Date": "1827", 
 				"Address": "Concord and Lafayette Streets",
@@ -680,6 +711,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "42.jpg",
+				"Category": "red",
 				"Name": "The Keeper's Dwelling", 
 				"Date": "c. 1827", 
 				"Address": "720 Concord Street",
@@ -696,6 +728,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "43.jpg",
+				"Category": "red",
 				"Name": "O'Neill House", 
 				"Date": "c. 1865", 
 				"Address": "218 South Washington Street",
@@ -713,6 +746,7 @@ var features = {
 			"properties": {
 				"Photo": "44.jpg",
 				"Category": "green",
+				"Category": "red",
 				"Name": "The Old Ordinary", 
 				"Date": "c. 1800", 
 				"Address": "100 St. John Street",
@@ -729,6 +763,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "45.jpg",
+				"Category": "red",
 				"Name": "Sawyer Building", 
 				"Date": "1840", 
 				"Address": "142 North Washington Street",
@@ -746,6 +781,7 @@ var features = {
 			"properties": {
 				"Photo": "46.jpg",
 				"Category": "green",
+				"Category": "red",
 				"Name": "Seneca Cannery", 
 				"Date": "c. 1880", 
 				"Address": "201 St. John Street",
@@ -762,6 +798,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "47.jpg",
+				"Category": "red",
 				"Name": "Maryland House", 
 				"Date": "1903", 
 				"Address": "200 North Washington Street",
@@ -779,6 +816,7 @@ var features = {
 			"properties": {
 				"Photo": "48.jpg",
 				"Category": "green",
+				"Category": "red",
 				"Name": "The Newmeyer Building", 
 				"Date": "1896", 
 				"Address": " 220 North Washington Street",
@@ -796,6 +834,7 @@ var features = {
 			"properties": {
 				"Photo": "49.jpg",
 				"Category": "green",
+				"Category": "red",
 				"Name": "The Masonic Temple", 
 				"Date": "1906", 
 				"Address": "215 North Washington Street",
@@ -812,6 +851,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "50.jpg",
+				"Category": "red",
 				"Name": "Rodger's House", 
 				"Date": "1787", 
 				"Address": "226 North Washington Street",
@@ -829,6 +869,7 @@ var features = {
 			"properties": {
 				"Photo": "51.jpg",
 				"Category": "green",
+				"Category": "red",
 				"Name": "Goll's Bakery", 
 				"Date": "c. 1970", 
 				"Address": "234 North Washington St.",
@@ -846,6 +887,7 @@ var features = {
 			"properties": {
 				"Photo": "52.jpg",
 				"Category": "green",
+				"Category": "red",
 				"Name": "The Barnes-Boyd House", 
 				"Date": "c. 1820", 
 				"Address": "301 St. John St.",
@@ -863,6 +905,7 @@ var features = {
 			"properties": {
 				"Photo": "53.jpg",
 				"Category": "green",
+				"Category": "red",
 				"Name": "The Poplar House", 
 				"Date": "c. 1835", 
 				"Address": "308 St. John St.",
@@ -879,6 +922,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "54.jpg",
+				"Category": "red",
 				"Name": "First National Bank Building", 
 				"Date": "1905", 
 				"Address": "321 St. John St.",
@@ -895,6 +939,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "55.jpg",
+				"Category": "red",
 				"Name": "The State Theater", 
 				"Date": "1927", 
 				"Address": "325 St. John St.",
@@ -911,6 +956,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "56.jpg",
+				"Category": "red",
 				"Name": "Lyon's Pharmacy Building", 
 				"Date": "1880 - 1892 wing", 
 				"Address": "238 and 330 St. John St.",
@@ -927,6 +973,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "57.jpg",
+				"Category": "red",
 				"Name": "The Havre de Grace Banking and Trust Building", 
 				"Date": "1924", 
 				"Address": "331 St. John St.",
