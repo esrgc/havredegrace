@@ -42,6 +42,7 @@ var features = {
 				"coordinates": [-76.09087106, 39.55219354]
 			},
 			"properties": {
+				"Photo": "3.jpg",
 				"Name": "Abraham Jarrett Thomas House", 
 				"Date": "1834", 
 				"Address": "501 St. John Street",
@@ -57,6 +58,7 @@ var features = {
 				"coordinates": [-76.09193905, 39.5514785]
 			},
 			"properties": {
+				"Photo": "4.jpg",
 				"Category": "red",
 				"Name": "The Matilda O&#39;Neil House", 
 				"Date": "1822", 
@@ -73,6 +75,7 @@ var features = {
 				"coordinates": [-76.09214132, 39.55131162]
 			},
 			"properties": {
+				"Photo": "5.jpg",
 				"Name": "The Hitchcock/Ruttledge House", 
 				"Date": "1870", 
 				"Address": "416 North Union Avenue",
@@ -88,6 +91,7 @@ var features = {
 				"coordinates": [-76.09213112, 39.55110888]
 			},
 			"properties": {
+				"Photo": "6.jpg",
 				"Name": "The Old Pitcock Hardware Building", 
 				"Date": "c. 1890", 
 				"Address": "408 North Union Avenue",
@@ -103,6 +107,7 @@ var features = {
 				"coordinates": [-76.09183191, 39.55094265]
 			},
 			"properties": {
+				"Photo": "7.jpg",
 				"Name": "The Old Chesapeake Hotel", 
 				"Date": "1896", 
 				"Address": "400 North Union Avenue",
@@ -118,6 +123,7 @@ var features = {
 				"coordinates": [-76.091408, 39.550618]
 			},
 			"properties": {
+				"Photo": "8.jpg",
 				"Category": "red",
 				"Name": "A.P. McCombs Building", 
 				"Date": "1900", 
@@ -134,6 +140,7 @@ var features = {
 				"coordinates": [-76.09183981, 39.55059953]
 			},
 			"properties": {
+				"Photo": "9.jpg",
 				"Name": "The Wright-Henry House", 
 				"Date": "c. 1850", 
 				"Address": "322 North Union Avenue",
@@ -149,6 +156,7 @@ var features = {
 				"coordinates": [-76.091928, 39.550134]
 			},
 			"properties": {
+				"Photo": "10.jpg",
 				"Name": "The Havre de Grace Post Office Building", 
 				"Date": "1936", 
 				"Address": "308 North Union Avenue",
@@ -164,6 +172,7 @@ var features = {
 				"coordinates": [-76.09189004, 39.5499505]
 			},
 			"properties": {
+				"Photo": "11.jpg",
 				"Name": "The Aveilhe-Goldsborough House", 
 				"Date": "1801", 
 				"Address": "300 North Union Avenue",
@@ -180,6 +189,7 @@ var features = {
 				"coordinates": [-76.09096558, 39.54963984]
 			},
 			"properties": {
+				"Photo": "12.jpg",
 				"Name": "The Thomas Hopkins House", 
 				"Date": "1839", 
 				"Address": "229 North Union Avenue",
@@ -211,6 +221,7 @@ var features = {
 				"coordinates": [-76.091972, 39.548976]
 			},
 			"properties": {
+				"Photo": "14.jpg",
 				"Name": "Seneca Mansion", 
 				"Date": "1885", 
 				"Address": "200 North Union Avenue",
@@ -226,6 +237,7 @@ var features = {
 				"coordinates": [-76.091284, 39.548599]
 			},
 			"properties": {
+				"Photo": "15.jpg",
 				"Name": "Susquehanna Hose Company Division #2", 
 				"Date": "1870", 
 				"Address": "125 North Union Avenue",
@@ -257,6 +269,7 @@ var features = {
 				"coordinates": [-76.09197, 39.548126]
 			},
 			"properties": {
+				"Photo": "17.jpg",
 				"Category": "red",
 				"Name": "Borneman Building", 
 				"Date": "1857", 
@@ -273,6 +286,7 @@ var features = {
 				"coordinates": [-76.091962, 39.547903]
 			},
 			"properties": {
+				"Photo": "18.jpg",
 				"Name": "St. John’s Episcopal Church", 
 				"Date": "1809", 
 				"Address": "100 North Union Avenue",
@@ -288,6 +302,7 @@ var features = {
 				"coordinates": [-76.0905429578743, 39.5480342015983]
 			},
 			"properties": {
+				"Photo": "19.jpg",
 				"Category": "red",
 				"Name": "The Carver-Craig House", 
 				"Date": "c. 1855", 
@@ -304,6 +319,7 @@ var features = {
 				"coordinates": [-76.0898205866415, 39.5473918198593]
 			},
 			"properties": {
+				"Photo": "20.jpg",
 				"Name": "The Maslin House", 
 				"Date": "1860", 
 				"Address": "100 South Washington Street",
@@ -319,6 +335,7 @@ var features = {
 				"coordinates": [-76.0901419181853, 39.5473744840356]
 			},
 			"properties": {
+				"Photo": "21.jpg",
 				"Name": "Silverstein House", 
 				"Date": "1865", 
 				"Address": "414 Congress Avenue",
@@ -334,6 +351,7 @@ var features = {
 				"coordinates": [-76.0904204153796, 39.5473406039847]
 			},
 			"properties": {
+				"Photo": "22.jpg",
 				"Name": "The Miller House", 
 				"Date": "1901", 
 				"Address": "450 and 452 Congress Avenue",
@@ -349,6 +367,7 @@ var features = {
 				"coordinates": [-76.0908632578657, 39.5473737429953]
 			},
 			"properties": {
+				"Photo": "23.jpg",
 				"Name": "Havre de Grace Methodist Church", 
 				"Date": "1901", 
 				"Address": "101 South Union Avenue",
@@ -364,6 +383,7 @@ var features = {
 				"coordinates": [-76.09186, 39.5471]
 			},
 			"properties": {
+				"Photo": "24.jpg",
 				"Name": "The Carver House", 
 				"Date": "1885", 
 				"Address": "115 South Union Avenue",
@@ -379,6 +399,7 @@ var features = {
 				"coordinates": [-76.091841, 39.547013]
 			},
 			"properties": {
+				"Photo": "25.jpg",
 				"Category": "red",
 				"Name": "The Vosbury House", 
 				"Date": "1889", 
@@ -395,6 +416,7 @@ var features = {
 				"coordinates": [-76.091943, 39.546786]
 			},
 			"properties": {
+				"Photo": "26.jpg",
 				"Name": "The A.P.McCombs House", 
 				"Date": "c. 1880", 
 				"Address": "120 South Union Avenue",
@@ -426,6 +448,7 @@ var features = {
 				"coordinates": [-76.091278, 39.546083]
 			},
 			"properties": {
+				"Photo": "28.jpg",
 				"Category": "green",
 				"Name": "The Sappington House", 
 				"Date": "1838", 
@@ -442,6 +465,7 @@ var features = {
 				"coordinates": [-76.09106, 39.54609]
 			},
 			"properties": {
+				"Photo": "29.jpg",
 				"Name": "The Hoke House", 
 				"Date": "1838", 
 				"Address": "213 South Union Avenue",
@@ -457,7 +481,7 @@ var features = {
 				"coordinates": [-76.090832, 39.546002]
 			},
 			"properties": {
-				"Photo": "39.jpg",
+				"Photo": "30.jpg",
 				"Category": "red",
 				"Name": "The Hall House", 
 				"Date": "c. 1835", 
@@ -491,6 +515,7 @@ var features = {
 				"coordinates": [-76.091138, 39.543634]
 			},
 			"properties": {
+				"Photo": "32.jpg",
 				"Name": "The Colonial Hotel Building", 
 				"Date": "c. 1930", 
 				"Address": "421 South Union Avenue",
@@ -572,6 +597,7 @@ var features = {
 				"coordinates": [-76.087621, 39.539821]
 			},
 			"properties": {
+				"Photo": "37.jpg",
 				"Name": "Chesney-Currier/DeGroat House", 
 				"Date": "1830", 
 				"Address": "825 South Market Street",
@@ -587,6 +613,7 @@ var features = {
 				"coordinates": [-76.088018, 39.54014]
 			},
 			"properties": {
+				"Photo": "38.jpg",
 				"Category": "green",
 				"Name": "The Jacksteit House", 
 				"Date": "c. 1850", 
@@ -635,6 +662,7 @@ var features = {
 				"coordinates": [-76.084756, 39.540694]
 			},
 			"properties": {
+				"Photo": "41.jpg",
 				"Name": "Concord Point Lighthouse", 
 				"Date": "1827", 
 				"Address": "Concord and Lafayette Streets",
@@ -651,8 +679,9 @@ var features = {
 				"coordinates": [-76.085582, 39.540897]
 			},
 			"properties": {
+				"Photo": "42.jpg",
 				"Name": "The Keeper's Dwelling", 
-				"Date": "c. 1827)", 
+				"Date": "c. 1827", 
 				"Address": "720 Concord Street",
 				"Description": "This is the original light keeper's house built by John Donahoo. John O'Neill was awarded the position of light keeper for his heroic efforts in defending Havre de Grace from the British. For decades people knew this building as a night club. At various times it was The Ebb Tide, The Home Stretch and The Lighthouse Inn. After it fell into disuse and disrepair, Havre de Grace officials called for its demolition. The building was saved by the efforts of the Friends of the Concord Point Lighthouse and restored with guidance from The Maryland Historical Trust. It now stands proudly in its rightful place as companion to the Concord Point Lighthouse.",
 				"Footnote": ""
@@ -666,6 +695,7 @@ var features = {
 				"coordinates": [-76.089915, 39.545915]
 			},
 			"properties": {
+				"Photo": "43.jpg",
 				"Name": "O'Neill House", 
 				"Date": "c. 1865", 
 				"Address": "218 South Washington Street",
@@ -698,6 +728,7 @@ var features = {
 				"coordinates": [-76.09002, 39.548645]
 			},
 			"properties": {
+				"Photo": "45.jpg",
 				"Name": "Sawyer Building", 
 				"Date": "1840", 
 				"Address": "142 North Washington Street",
@@ -730,6 +761,7 @@ var features = {
 				"coordinates": [-76.08999, 39.548927]
 			},
 			"properties": {
+				"Photo": "47.jpg",
 				"Name": "Maryland House", 
 				"Date": "1903", 
 				"Address": "200 North Washington Street",
@@ -745,6 +777,7 @@ var features = {
 				"coordinates": [-76.089961, 39.54927]
 			},
 			"properties": {
+				"Photo": "48.jpg",
 				"Category": "green",
 				"Name": "The Newmeyer Building", 
 				"Date": "1896", 
@@ -761,6 +794,7 @@ var features = {
 				"coordinates": [-76.08962, 39.549305]
 			},
 			"properties": {
+				"Photo": "49.jpg",
 				"Category": "green",
 				"Name": "The Masonic Temple", 
 				"Date": "1906", 
@@ -777,7 +811,8 @@ var features = {
 				"coordinates": [-76.089961, 39.549425]
 			},
 			"properties": {
-				"Name": "Rodger's House ", 
+				"Photo": "50.jpg",
+				"Name": "Rodger's House", 
 				"Date": "1787", 
 				"Address": "226 North Washington Street",
 				"Description": "Undoubtedly the most significant structure in the city is this brick Georgian townhouse. It is probably the oldest building in Havre de Grace. George Washington made several stop here in 1787 and 1795. The most important historic attribute is ownership by the Rodgers family of U.S. Navy fame for almost 100 years. The original modification for commercial use occurred in the early 1900's. It was restored in 1981 to permit a continued commercial use of its ground floor. The old house also provides a clue to the aspirations of early town promoters. There are no windows on the south and north elevations suggesting that high-density town development was anticipated very early in Havre de Grace's history.",
@@ -792,6 +827,7 @@ var features = {
 				"coordinates": [-76.089972, 39.549603]
 			},
 			"properties": {
+				"Photo": "51.jpg",
 				"Category": "green",
 				"Name": "Goll's Bakery", 
 				"Date": "c. 1970", 
