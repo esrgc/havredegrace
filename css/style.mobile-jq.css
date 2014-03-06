@@ -72,3 +72,7 @@ body {
     white-space: nowrap;
     outline: 0 !important;
 }
+
+.image{
+    max-width:75%;
+}

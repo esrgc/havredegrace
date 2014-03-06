@@ -123,39 +123,45 @@ var init = function (onSelectFeatureFunction) {
 		return jsonVector;
 	}
 	
-	function popup(e){
-		var index=e.feature.fid;
-		var name=features.features[index].properties.Name;
-		var date=features.features[index].properties.Date;
-		var address=features.features[index].properties.Address;
-		var photo=features.features[index].properties.Photo;
-		var description=features.features[index].properties.Description;
-		var footnote=features.features[index].properties.Footnote;
+	function popup(id){
+		var index=id;
+		var name="<h1>#"+(index+1)+ " - " +features.features[index].properties.Name+"</h1>";
+		var address="<h2>Address - "+features.features[index].properties.Address+"</h2>";
+		var date="<h2>Built in - "+ features.features[index].properties.Date + "</h2>";
 
-		$("#popupBasic").on(
-			'popupafteropen', 
-			function(){
-				if(typeof photo=="undefined"){
-					$(this).html("<a class=\"ui-btn-right ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-notext ui-btn-up-a\" data-iconpos=\"notext\" data-icon=\"delete\" data-theme=\"a\" data-role=\"button\" data-rel=\"back\" href=\"#\" data-corners=\"true\" data-shadow=\"true\" data-iconshadow=\"true\" data-wrapperels=\"span\" title=\"Close\"><span class=\"ui-btn-inner ui-btn-corner-all\"><span class=\"ui-btn-text\">Close</span><span class=\"ui-icon ui-icon-delete ui-icon-shadow\"> </span></span></a><center><h1>#"+(index+1)+ " - " + name+"</h1></div><h2>Address - "+address+"</h2></center><center><h2>Built in "+date+"</h2></center><h2>"+description+"</h2><h3 style=\"font-style:italic;\" >"+footnote+"<h3>");
-				}
-				else{
-					$(this).html("<a class=\"ui-btn-right ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-notext ui-btn-up-a\" data-iconpos=\"notext\" data-icon=\"delete\" data-theme=\"a\" data-role=\"button\" data-rel=\"back\" href=\"#\" data-corners=\"true\" data-shadow=\"true\" data-iconshadow=\"true\" data-wrapperels=\"span\" title=\"Close\"><span class=\"ui-btn-inner ui-btn-corner-all\"><span class=\"ui-btn-text\">Close</span><span class=\"ui-icon ui-icon-delete ui-icon-shadow\"> </span></span></a><center><h1>#"+(index+1)+ " - " +name+"</h1></div><h2>Address - "+address+"</h2></center><center><h2>Built in "+date+"</h2></center><center><img src=\"media/locations/"+photo+"\"></center><h2>"+description+"</h2><h3 style=\"font-style:italic;\" >"+footnote+"<h3>");
-				}
-			}	
-		);
-		$("#popupBasic").on(
-			'popupafterclose', 
-			function(){
-				$(this).html("");
-			}	
-		);
+		var photo;
+		if(features.features[index].properties.Photo == null){
+			photo="";
+		}
+		else{
+			photo = "<img src=\"media/locations/" + features.features[index].properties.Photo + "\" class='image' alt=''>";
+		}
+
+		var description="<h2>"+features.features[index].properties.Description+"</h2>";
+		var footnote="<h3 style=\"font-style:italic;\">"+features.features[index].properties.Footnote+"</h3>";
+
+		$("#popupBasic").html("<a class=\"ui-btn-right ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-notext ui-btn-up-a\" data-iconpos=\"notext\" data-icon=\"delete\" data-theme=\"a\" data-role=\"button\" data-rel=\"back\" href=\"#\" data-corners=\"true\" data-shadow=\"true\" data-iconshadow=\"true\" data-wrapperels=\"span\" title=\"Close\"><span class=\"ui-btn-inner ui-btn-corner-all\"><span class=\"ui-btn-text\">Close</span><span class=\"ui-icon ui-icon-delete ui-icon-shadow\"> </span></span></a><center><button id='previous'>Previous</button>"+name+"<button id='next'>Next</button></div>"+address+"</center><center>"+date+"</center><center>"+photo+"</center>"+description+footnote);
+
+		$('#next').click(function(){
+			console.log("here in next");
+			popup(index+1);
+		});
+
+		$('#previous').click(function(){
+			console.log("here in previous");
+			popup(index-1);
+		});
+
 		$( "#popupBasic" ).popup("open", {x:0, y:0, tolerance:"30,15,500,15"});
 	}
 	
 	
-	
-	
-	
+	function getFeature(id){
+		var featureObject = {
+			index:id, 
+
+		};
+	}	
 	
 	function ColorVector(color){
 		this.colorLayer=new OpenLayers.Layer.Vector(color, {
@@ -172,7 +178,7 @@ var init = function (onSelectFeatureFunction) {
 		
 		this.colorLayer.events.on({
 			"featureselected": function(e){
-				popup(e);
+				popup(e.feature.fid);
 			}
 		});
 		
