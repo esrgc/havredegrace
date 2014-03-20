@@ -103,6 +103,9 @@ var init = function (onSelectFeatureFunction) {
         map.zoomToExtent(vector.getDataExtent());
     });
 
+        popupIntro();
+
+
 	var mobileBaseFeatures;
 	function getFeatures(cat) {
 		mobileBaseFeatures=features;
@@ -140,7 +143,7 @@ var init = function (onSelectFeatureFunction) {
 		var description="<h2>"+features.features[index].properties.Description+"</h2>";
 		var footnote="<h3 style=\"font-style:italic;\">"+features.features[index].properties.Footnote+"</h3>";
 
-		$("#popupBasic").html("<a class=\"ui-btn-right ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-notext ui-btn-up-a\" data-iconpos=\"notext\" data-icon=\"delete\" data-theme=\"a\" data-role=\"button\" data-rel=\"back\" href=\"#\" data-corners=\"true\" data-shadow=\"true\" data-iconshadow=\"true\" data-wrapperels=\"span\" title=\"Close\"><span class=\"ui-btn-inner ui-btn-corner-all\"><span class=\"ui-btn-text\">Close</span><span class=\"ui-icon ui-icon-delete ui-icon-shadow\"> </span></span></a><center><button id='previous'>Previous</button>"+name+"<button id='next'>Next</button></div>"+address+"</center><center>"+date+"</center><center>"+photo+"</center>"+description+footnote);
+		$("#popupBasic").html("<a class=\"ui-btn-right ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-notext ui-btn-up-a\" data-iconpos=\"notext\" data-icon=\"delete\" data-theme=\"a\" data-role=\"button\" data-rel=\"back\" href=\"#\" data-corners=\"true\" data-shadow=\"true\" data-iconshadow=\"true\" data-wrapperels=\"span\" title=\"Close\"><span class=\"ui-btn-inner ui-btn-corner-all\"><span class=\"ui-btn-text\">Close</span><span class=\"ui-icon ui-icon-delete ui-icon-shadow\"> </span></span></a><center><div class='ui-grid-a'><div class='ui-block-a'><button id='previous'>Previous</button></div><div class='ui-block-b'><button id='next'>Next</button></div></div>"+name+"</div>"+address+"</center><center>"+date+"</center><center>"+photo+"</center>"+description+footnote);
 
 		$('#next').click(function(){
 			console.log("here in next");
@@ -151,6 +154,17 @@ var init = function (onSelectFeatureFunction) {
 			console.log("here in previous");
 			popup(index-1);
 		});
+
+		$( "#popupBasic" ).popup("open", {x:0, y:0, tolerance:"30,15,500,15"});
+
+						$('#next').button().button('refresh');
+				$('#previous').button().button('refresh');
+
+	}
+
+	function popupIntro(){
+
+		$("#popupBasic").html("<a class=\"ui-btn-right ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-notext ui-btn-up-a\" data-iconpos=\"notext\" data-icon=\"delete\" data-theme=\"a\" data-role=\"button\" data-rel=\"back\" href=\"#\" data-corners=\"true\" data-shadow=\"true\" data-iconshadow=\"true\" data-wrapperels=\"span\" title=\"Close\"><span class=\"ui-btn-inner ui-btn-corner-all\"><span class=\"ui-btn-text\">Close</span><span class=\"ui-icon ui-icon-delete ui-icon-shadow\"> </span></span></a><h2>Welcome to the Havre de Grace Walking Tour. To start, walk to The Lock House (it's the only blue marker on the map) and tap the marker on the map for a picture and more information. When you're done, hit the \"Next\" button to see infromation about the next location.</h2>");
 
 		$( "#popupBasic" ).popup("open", {x:0, y:0, tolerance:"30,15,500,15"});
 	}

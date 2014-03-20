@@ -10,7 +10,7 @@ var features = {
 			},
 			"properties": {
 				"Photo": "1.jpg",
-				"Category": "red",
+				"Category": "blue",
 				"Name": "The Lock House", 
 				"Date": "1840", 
 				"Address": "Charles Montgomery Way off Conesteo Street",
