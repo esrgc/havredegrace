@@ -66,7 +66,7 @@ var init = function (onSelectFeatureFunction) {
     selectControl.activate();
 	var proj = new OpenLayers.Projection("EPSG:4326");
 	var point = new OpenLayers.LonLat(-76.0908, 39.549);
-	map.setCenter(point.transform(proj, map.getProjectionObject()), 15);
+	map.setCenter(point.transform(proj, map.getProjectionObject()), 14);
 
     var style = {
         fillOpacity: 0.1,
