@@ -66,7 +66,7 @@ var init = function (onSelectFeatureFunction) {
     selectControl.activate();
 	var proj = new OpenLayers.Projection("EPSG:4326");
 	var point = new OpenLayers.LonLat(-76.0908, 39.549);
-	map.setCenter(point.transform(proj, map.getProjectionObject()), 16);
+	map.setCenter(point.transform(proj, map.getProjectionObject()), 15);
 
     var style = {
         fillOpacity: 0.1,
@@ -128,9 +128,9 @@ var init = function (onSelectFeatureFunction) {
 	
 	function popup(id){
 		var index=id;
-		var name="<h1>#"+(index+1)+ " - " +features.features[index].properties.Name+"</h1>";
-		var address="<h2>Address - "+features.features[index].properties.Address+"</h2>";
-		var date="<h2>Built in - "+ features.features[index].properties.Date + "</h2>";
+		var name="<h2 class=\"popup-text\">#"+(index+1)+ " - " +features.features[index].properties.Name+"</h2>";
+		var address="<h3 class=\"popup-text\">"+features.features[index].properties.Address+"</h3>";
+		var date="<h3 class=\"popup-text\">"+ features.features[index].properties.Date + "</h3>";
 
 		var photo;
 		if(features.features[index].properties.Photo == null){
@@ -140,10 +140,10 @@ var init = function (onSelectFeatureFunction) {
 			photo = "<img src=\"media/locations/" + features.features[index].properties.Photo + "\" class='image' alt=''>";
 		}
 
-		var description="<h2>"+features.features[index].properties.Description+"</h2>";
-		var footnote="<h3 style=\"font-style:italic;\">"+features.features[index].properties.Footnote+"</h3>";
+		var description="<h3 class=\"popup-text\">"+features.features[index].properties.Description+"</h3>";
+		var footnote="<h4 style=\"font-style:italic;\" class=\"popup-text\">"+features.features[index].properties.Footnote+"</h4>";
 
-		$("#popupBasic").html("<a class=\"ui-btn-right ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-notext ui-btn-up-a\" data-iconpos=\"notext\" data-icon=\"delete\" data-theme=\"a\" data-role=\"button\" data-rel=\"back\" href=\"#\" data-corners=\"true\" data-shadow=\"true\" data-iconshadow=\"true\" data-wrapperels=\"span\" title=\"Close\"><span class=\"ui-btn-inner ui-btn-corner-all\"><span class=\"ui-btn-text\">Close</span><span class=\"ui-icon ui-icon-delete ui-icon-shadow\"> </span></span></a><center><div class='ui-grid-a'><div class='ui-block-a'><button id='previous'>Previous</button></div><div class='ui-block-b'><button id='next'>Next</button></div></div>"+name+"</div>"+address+"</center><center>"+date+"</center><center>"+photo+"</center>"+description+footnote);
+		$("#popupBasic").html("<a class=\"ui-btn-right ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-notext ui-btn-up-a\" data-iconpos=\"notext\" data-icon=\"delete\" data-theme=\"a\" data-role=\"button\" data-rel=\"back\" href=\"#\" data-corners=\"true\" data-shadow=\"true\" data-iconshadow=\"true\" data-wrapperels=\"span\" title=\"Close\"><span class=\"ui-btn-inner ui-btn-corner-all\"><span class=\"ui-btn-text\">Close</span><span class=\"ui-icon ui-icon-delete ui-icon-shadow\"> </span></span></a><center><div class='ui-grid-a'><div class='ui-block-a'><button id='previous'>Previous</button></div><div class='ui-block-b'><button id='next'>Next</button></div></div><br>"+name+"</div>"+date+address+"</center><br><center>"+photo+"</center>"+description+footnote);
 
 		$('#next').click(function(){
 			console.log("here in next");
@@ -164,7 +164,7 @@ var init = function (onSelectFeatureFunction) {
 
 	function popupIntro(){
 
-		$("#popupBasic").html("<a class=\"ui-btn-right ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-notext ui-btn-up-a\" data-iconpos=\"notext\" data-icon=\"delete\" data-theme=\"a\" data-role=\"button\" data-rel=\"back\" href=\"#\" data-corners=\"true\" data-shadow=\"true\" data-iconshadow=\"true\" data-wrapperels=\"span\" title=\"Close\"><span class=\"ui-btn-inner ui-btn-corner-all\"><span class=\"ui-btn-text\">Close</span><span class=\"ui-icon ui-icon-delete ui-icon-shadow\"> </span></span></a><h2>Welcome to the Havre de Grace Walking Tour. To start, walk to The Lock House (it's the only blue marker on the map) and tap the marker on the map for a picture and more information. When you're done, hit the \"Next\" button to see infromation about the next location.</h2>");
+		$("#popupBasic").html("<a class=\"ui-btn-right ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-notext ui-btn-up-a\" data-iconpos=\"notext\" data-icon=\"delete\" data-theme=\"a\" data-role=\"button\" data-rel=\"back\" href=\"#\" data-corners=\"true\" data-shadow=\"true\" data-iconshadow=\"true\" data-wrapperels=\"span\" title=\"Close\"><span class=\"ui-btn-inner ui-btn-corner-all\"><span class=\"ui-btn-text\">Close</span><span class=\"ui-icon ui-icon-delete ui-icon-shadow\"> </span></span></a><h2>Tap on a balloon anywhere on the map to see that property. You may wish to start at the first property, The Lock House, which is denoted by a blue balloon. Press the \'Previous\' and \'Next\' buttons to scroll through the properties. To return to the map, close the property by pressing the X in the upper right corner.</h2>");
 
 		$( "#popupBasic" ).popup("open", {x:0, y:0, tolerance:"30,15,500,15"});
 	}

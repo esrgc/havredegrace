@@ -84,3 +84,7 @@ body {
 #next{
     float:right;
 }
+
+.popup-text{
+    margin:0px;
+}
