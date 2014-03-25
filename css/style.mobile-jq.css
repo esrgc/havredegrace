@@ -88,3 +88,7 @@ body {
 .popup-text{
     margin:0px;
 }
+
+.ui-icon-edit{
+    background-position: -288px 0;
+}
