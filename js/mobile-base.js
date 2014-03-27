@@ -66,7 +66,7 @@ var init = function (onSelectFeatureFunction) {
     selectControl.activate();
 	var proj = new OpenLayers.Projection("EPSG:4326");
 	var point = new OpenLayers.LonLat(-76.0908, 39.549);
-	map.setCenter(point.transform(proj, map.getProjectionObject()), 16);
+	map.setCenter(point.transform(proj, map.getProjectionObject()), 15);
 
     var style = {
         fillOpacity: 0.1,
@@ -128,8 +128,17 @@ var init = function (onSelectFeatureFunction) {
 	
 	function popup(id){
 		var index=id;
-		
-		var name="<h2 class=\"popup-text\">#"+(index+1)+ " - " +features.features[index].properties.Name+"</h2>";
+
+		if(index == 24){
+			index = 25;
+		}
+
+		var indexString = (index+1).toString();
+		if(index == 23){
+			indexString = "24 & 25";
+		}
+
+		var name="<h2 class=\"popup-text\">#"+indexString+ " - " +features.features[index].properties.Name+"</h2>";
 		var address="<h3 class=\"popup-text\">"+features.features[index].properties.Address+"</h3>";
 		var date="<h3 class=\"popup-text\">"+ features.features[index].properties.Date + "</h3>";
 
@@ -147,25 +156,28 @@ var init = function (onSelectFeatureFunction) {
 		$("#popupBasic").html("<a class=\"ui-btn-right ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-notext ui-btn-up-a\" data-iconpos=\"notext\" data-icon=\"delete\" data-theme=\"a\" data-role=\"button\" data-rel=\"back\" href=\"#\" data-corners=\"true\" data-shadow=\"true\" data-iconshadow=\"true\" data-wrapperels=\"span\" title=\"Close\"><span class=\"ui-btn-inner ui-btn-corner-all\"><span class=\"ui-btn-text\">Close</span><span class=\"ui-icon ui-icon-delete ui-icon-shadow\"> </span></span></a><center><div class='ui-grid-a'><div class='ui-block-a'><button id='previous'>Previous</button></div><div class='ui-block-b'><button id='next'>Next</button></div></div><br>"+name+"</div>"+date+address+"</center><br><center>"+photo+"</center>"+description+footnote);
 
 		$('#next').click(function(){
-			console.log("here in next");
 			popup(index+1);
 		});
 
 		$('#previous').click(function(){
-			console.log("here in previous");
-			popup(index-1);
+			if(index != 25){
+				popup(index-1);
+			}
+			else{
+				popup(index-2);
+			}
 		});
 
 		$( "#popupBasic" ).popup("open", {x:0, y:0, tolerance:"30,15,500,15"});
 
-						$('#next').button().button('refresh');
-				$('#previous').button().button('refresh');
+		$('#next').button().button('refresh');
+		$('#previous').button().button('refresh');
 
 	}
 
 	function popupIntro(){
 
-		$("#popupBasic").html("<a class=\"ui-btn-right ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-notext ui-btn-up-a\" data-iconpos=\"notext\" data-icon=\"delete\" data-theme=\"a\" data-role=\"button\" data-rel=\"back\" href=\"#\" data-corners=\"true\" data-shadow=\"true\" data-iconshadow=\"true\" data-wrapperels=\"span\" title=\"Close\"><span class=\"ui-btn-inner ui-btn-corner-all\"><span class=\"ui-btn-text\">Close</span><span class=\"ui-icon ui-icon-delete ui-icon-shadow\"> </span></span></a><h2>Tap on a balloon anywhere on the map to see that property. You may wish to start at the first property, The Lock House, which is denoted by a blue balloon. Press the \'Previous\' and \'Next\' buttons to scroll through the properties. To return to the map, close the property by pressing the X in the upper right corner.</h2>");
+		$("#popupBasic").html("<a class=\"ui-btn-right ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-notext ui-btn-up-a\" data-iconpos=\"notext\" data-icon=\"delete\" data-theme=\"a\" data-role=\"button\" data-rel=\"back\" href=\"#\" data-corners=\"true\" data-shadow=\"true\" data-iconshadow=\"true\" data-wrapperels=\"span\" title=\"Close\"><span class=\"ui-btn-inner ui-btn-corner-all\"><span class=\"ui-btn-text\">Close</span><span class=\"ui-icon ui-icon-delete ui-icon-shadow\"> </span></span></a><h4>Tap on a balloon anywhere on the map to see that property. You may wish to start at the first property, The Lock House, which is denoted by a blue balloon. Press the \'Previous\' and \'Next\' buttons to scroll through the properties. To return to the map, close the property by pressing the X in the upper right corner.</h4>");
 
 		$( "#popupBasic" ).popup("open", {x:0, y:0, tolerance:"30,15,500,15"});
 	}
@@ -193,9 +205,7 @@ var init = function (onSelectFeatureFunction) {
 		
 		this.colorLayer.events.on({
 			"featureselected": function(e){
-				if(e.feature.attributes.Display != false){
-					popup(e.feature.fid);
-				}
+				popup(e.feature.fid);
 			}
 		});
 		

@@ -394,7 +394,7 @@ var features = {
 			}
 		},
 		{ 
-			"index": 24,
+			"index": "24 & 25",
 			"type": "Feature", 
 			"geometry": {
 				"type": "Point", 
@@ -403,9 +403,9 @@ var features = {
 			"properties": {
 				"Photo": "24.jpg",
 				"Category": "red",
-				"Name": "The Carver House", 
-				"Date": "1885", 
-				"Address": "115 South Union Avenue",
+				"Name": "The Carver House and The Vosbury House", 
+				"Date": "1885 & 1889", 
+				"Address": "115 & 123 South Union Avenue",
 				"Description": "Arthur Vosbury built these Victorian Queen Anne and stick style homes as wedding presents for his two children. Mr. Vosbury was manager of the Havre de Grace Branch of the Binghamton, NY DuBois Lumber Company. In early years logs were transported on rafts downriver to the local log pond. At the DuBois mill the logs were used for building materials with even the rafts being taken apart for the lumber. Many structures in town, including these two houses, were framed from the trimmed logs. The exteriors were returned to their original color schemes in 1999 and 2000.",
 				"Footnote": ""
 			}
@@ -415,9 +415,10 @@ var features = {
 			"type": "Feature", 
 			"geometry": {
 				"type": "Point", 
-				"coordinates": [-76.091841, 39.547013]
+				"coordinates": [null, null]
 			},
 			"properties": {
+				"Note": "DEVELOPER COMMENT - THIS IS A PLACEHOLDER FEATURE. THE CONTENTS OF PROPERTY 25 ARE CONTAINED WITHIN INDEX 24 SINCE THEY REFER TO THE SAME GENERAL PROPERTY. ANY CHANGE MADE ON THE CONTENTS OF THIS FEATURE WILL NOT HAVE AN IMPACT ON THE APPLICATION, IT SIMPLY EXISTS BECAUSE IF THE ENTIRE FEATURE WAS DELETED PROPERTY 26 WOULD BECOME PROPERTY 25, 27 WOULD BE 26, ETC.",
 				"Photo": "25.jpg",
 				"Category": "red",
 				"Name": "The Vosbury House", 
