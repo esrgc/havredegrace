@@ -66,7 +66,7 @@ var init = function (onSelectFeatureFunction) {
     selectControl.activate();
 	var proj = new OpenLayers.Projection("EPSG:4326");
 	var point = new OpenLayers.LonLat(-76.0908, 39.549);
-	map.setCenter(point.transform(proj, map.getProjectionObject()), 14);
+	map.setCenter(point.transform(proj, map.getProjectionObject()), 16);
 
     var style = {
         fillOpacity: 0.1,
@@ -128,6 +128,7 @@ var init = function (onSelectFeatureFunction) {
 	
 	function popup(id){
 		var index=id;
+		
 		var name="<h2 class=\"popup-text\">#"+(index+1)+ " - " +features.features[index].properties.Name+"</h2>";
 		var address="<h3 class=\"popup-text\">"+features.features[index].properties.Address+"</h3>";
 		var date="<h3 class=\"popup-text\">"+ features.features[index].properties.Date + "</h3>";
@@ -192,7 +193,9 @@ var init = function (onSelectFeatureFunction) {
 		
 		this.colorLayer.events.on({
 			"featureselected": function(e){
-				popup(e.feature.fid);
+				if(e.feature.attributes.Display != false){
+					popup(e.feature.fid);
+				}
 			}
 		});
 		
