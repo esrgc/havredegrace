@@ -48,8 +48,8 @@ var features = {
 				"Name": "Abraham Jarrett Thomas House", 
 				"Date": "1834", 
 				"Address": "501 St. John Street",
-				"Description": "Originally this waterfront property belonged to William B. Stokes, son of Havre de Grace&#39;s founding father. The property was purchased by the Havre de Grace Ferry Company in 1818 to be used as a link on the route from Baltimore to Philadelphia. The ferry crossing was nearby. Later, this structure became the residence of Abraham Jarrett Thomas, a local banker. From 1856 to the early 1940&#39;s it served as a hotel. Known as the Lafayette Hotel, it was 	&ldquo;home away from home&rdquo; for many horse racing enthusiasts attending the Havre de Grace Race Track, &ldquo;The Graw&rdquo;[1] (1912-1950). This building is home to the Joseph L. Davis Post of the American Legion.",
-				"Footnote": "[1]The Graw - The Havre de Grace Race Track&#39;s nickname came from the mispronunciation of Havre de Grace as &ldquo;Havre de Graw&rdquo;. The Graw was a major one-mile thoroughbred track which featured such horses as the great Man O&#39; War, Triple Crown winner Citation and the beloved Seabiscuit."
+				"Description": "Originally this waterfront property belonged to William B. Stokes, son of Havre de Grace&#39;s founding father. The property was purchased by the Havre de Grace Ferry Company in 1818 to be used as a link on the route from Baltimore to Philadelphia. The ferry crossing was nearby. Later, this structure became the residence of Abraham Jarrett Thomas, a local banker. From 1856 to the early 1940&#39;s it served as a hotel. Known as the Lafayette Hotel, it was 	&ldquo;home away from home&rdquo; for many horse racing enthusiasts attending the Havre de Grace Race Track, &ldquo;The Graw&rdquo;<sup>1</sup> (1912-1950). This building is home to the Joseph L. Davis Post of the American Legion.",
+				"Footnote": "<sup>1</sup>The Graw - The Havre de Grace Race Track&#39;s nickname came from the mispronunciation of Havre de Grace as &ldquo;Havre de Graw&rdquo;. The Graw was a major one-mile thoroughbred track which featured such horses as the great Man O&#39; War, Triple Crown winner Citation and the beloved Seabiscuit."
 			}
 		},
 		{ 
@@ -65,8 +65,8 @@ var features = {
 				"Name": "The Matilda O&#39;Neil House", 
 				"Date": "1822", 
 				"Address": "420 North Union Avenue",
-				"Description": "In 1822 Lt. John O&#39;Neill[2] the hero of Havre de Grace, gave this house to his daughter Matilda as a wedding present. During the War of 1812, Matilda, 15, had her father&#39;s life spared at the hands of British Admiral George Cockburn. For her courage she was given a gold snuff box by this commander of the British attack upon Havre de Grace.",
-				"Footnote": "[2]John O&#39;Neil -  John O&#39;Neill is considered to be one of the most historically significant figures in the history of Havre de Grace because of his role in the war of 1812. On May 3, 1813, the British, led by Admiral George Cockburn, sailed toward Havre de grace after burning Principio Furnace, an iron foundry in Perryville. Havre de Grace had for defense a few cannons and some militia men. Lieutenant John O&#39;Neill, the only officer in the area, responded to the alarm by firing on the British. When the British began firing back, O&#39;Neill&#39;s men fled. The British, 400 in number by some accounts, came ashore, sacked and burned the town and captured O&#39;Neill. Subsequent to his capture and incarceration aboard a British vessel he was released by the intercession of his daughter, Matilda.",
+				"Description": "In 1822 Lt. John O&#39;Neill<sup>2</sup> the hero of Havre de Grace, gave this house to his daughter Matilda as a wedding present. During the War of 1812, Matilda, 15, had her father&#39;s life spared at the hands of British Admiral George Cockburn. For her courage she was given a gold snuff box by this commander of the British attack upon Havre de Grace.",
+				"Footnote": "<sup>2</sup>John O&#39;Neil -  John O&#39;Neill is considered to be one of the most historically significant figures in the history of Havre de Grace because of his role in the war of 1812. On May 3, 1813, the British, led by Admiral George Cockburn, sailed toward Havre de grace after burning Principio Furnace, an iron foundry in Perryville. Havre de Grace had for defense a few cannons and some militia men. Lieutenant John O&#39;Neill, the only officer in the area, responded to the alarm by firing on the British. When the British began firing back, O&#39;Neill&#39;s men fled. The British, 400 in number by some accounts, came ashore, sacked and burned the town and captured O&#39;Neill. Subsequent to his capture and incarceration aboard a British vessel he was released by the intercession of his daughter, Matilda.",
 			}
 		},
 		{ 
@@ -751,7 +751,7 @@ var features = {
 				"Name": "The Old Ordinary", 
 				"Date": "c. 1800", 
 				"Address": "100 St. John Street",
-				"Description": "The lot on which this structure resides was leased by Gabriel Peterson Vanhorn in 1782 from the town's founder, Robert Young Stokes. The term 'ordinary' was another word for tavern. The building has a French colonial appearance with its second story wrap-a-round porch and hipped roof with gabled dormers. The Old Ordinary was Beautifully restored in 1986.",
+				"Description": "The lot on which this structure resides was leased by Gabriel Peterson Vanhorn in 1782 from the town's founder, Robert Young Stokes. The term 'ordinary' was another word for tavern. The building has a French colonial appearance with its second story wrap-a-round porch and hipped roof with gabled dormers. The Old Ordinary was beautifully restored in 1986.",
 				"Footnote": ""
 			}
 		},
@@ -856,7 +856,7 @@ var features = {
 				"Name": "Rodger's House", 
 				"Date": "1787", 
 				"Address": "226 North Washington Street",
-				"Description": "Undoubtedly the most significant structure in the city is this brick Georgian townhouse. It is probably the oldest building in Havre de Grace. George Washington made several stop here in 1787 and 1795. The most important historic attribute is ownership by the Rodgers family of U.S. Navy fame for almost 100 years. The original modification for commercial use occurred in the early 1900's. It was restored in 1981 to permit a continued commercial use of its ground floor. The old house also provides a clue to the aspirations of early town promoters. There are no windows on the south and north elevations suggesting that high-density town development was anticipated very early in Havre de Grace's history.",
+				"Description": "Undoubtedly the most significant structure in the city is this brick Georgian townhouse. It is probably the oldest building in Havre de Grace. George Washington made several stops here in 1787 and 1795. The most important historic attribute is ownership by the Rodgers family of U.S. Navy fame for almost 100 years. The original modification for commercial use occurred in the early 1900's. It was restored in 1981 to permit a continued commercial use of its ground floor. The old house also provides a clue to the aspirations of early town promoters. There are no windows on the south and north elevations suggesting that high-density town development was anticipated very early in Havre de Grace's history.",
 				"Footnote": ""
 			}
 		},
@@ -927,7 +927,7 @@ var features = {
 				"Name": "First National Bank Building", 
 				"Date": "1905", 
 				"Address": "321 St. John St.",
-				"Description": "This imposing granite structure projects stability and security, desirable qualities for a bank. The back expands in a pair of joined towers and there is an interesting overhang covering the side entrance. Note the smaller building of similar style next door. Unfortantely it is built so close to the bank that it obstructs the sight of the towers in back.",
+				"Description": "This imposing granite structure projects stability and security, desirable qualities for a bank. The back expands in a pair of joined towers and there is an interesting overhang covering the side entrance. Note the smaller building of similar style next door. Unfortunately it is built so close to the bank that it obstructs the sight of the towers in back.",
 				"Footnote": ""
 			}
 		},
@@ -944,7 +944,7 @@ var features = {
 				"Name": "The State Theater", 
 				"Date": "1927", 
 				"Address": "325 St. John St.",
-				"Description": "A beloved Havre de Grace landmark, the State Theater was a 500 seat movie theater built by Baltimore-based exhibitor, Durkee Enterprises. The brick structure was design in the style of many theaters of the day. Havre de Grace, being the largest city in the area, had two movie houses by 1908, the Willou and the Bijou. Old postcards show the Willou to the left of the First National Bank and the Bijou, next door to the Willou. Both were replaced by The State Theater. Many Havre de Gracians have fond memories of seeing movies and attending the annual children's Christmas parties held here in the 1940's and 50's. The theater closed around 1960. It is now home to a church.",
+				"Description": "A beloved Havre de Grace landmark, the State Theater was a 500 seat movie theater built by Baltimore-based exhibitor, Durkee Enterprises. The brick structure was design in the style of many theaters of the day. Havre de Grace, being the largest city in the area, had two movie houses by 1908, the Willou and the Bijou. Old postcards show the Willou to the left of the First National Bank and the Bijou, next door to the Willou. Both were replaced by The State Theater. Many Havre de Gracians have fond memories of seeing movies and attending the annual children's Christmas parties held here in the 1940's and 50's. The theater closed around 1960.",
 				"Footnote": ""
 			}
 		},
@@ -961,7 +961,7 @@ var features = {
 				"Name": "Lyon's Pharmacy Building", 
 				"Date": "1880 - 1892 wing", 
 				"Address": "238 and 330 St. John St.",
-				"Description": "Built as a commercial structure of simple classical design, this building has house the Lyon's family business for four generations. George Lyon operated a ship's chandlery in the main block (328) in the 1880's. General provisions from his store were used to supply the large fishing floats which caught shad and herring in the Susquehanna River and upper Chesapeake Bay. The family opened a pharmacy in 1894 in the new wing (330). The building is located on a wedge-shaped log on the corner of St. John Street and Lodge Lane. Modern brick veneer conceals the original brick on the front of the building, and plate glass windows have been added. The tall second story windows have stone sills with arched brick lintels above the windows of the wing (330). Don't miss the Coca Cola 'ghost sign' on the back of the buidling.",
+				"Description": "Built as a commercial structure of simple classical design, this building has housed the Lyon's family business for four generations. George Lyon operated a ship's chandlery in the main block (328) in the 1880's. General provisions from his store were used to supply the large fishing floats which caught shad and herring in the Susquehanna River and upper Chesapeake Bay. The family opened a pharmacy in 1894 in the new wing (330). The building is located on a wedge-shaped lot on the corner of St. John Street and Lodge Lane. Modern brick veneer conceals the original brick on the front of the building, and plate glass windows have been added. The tall second story windows have stone sills with arched brick lintels above the windows of the wing (330). Don't miss the Coca Cola 'ghost sign' on the back of the buidling.",
 				"Footnote": ""
 			}
 		},
@@ -978,7 +978,7 @@ var features = {
 				"Name": "The Havre de Grace Banking and Trust Building", 
 				"Date": "1924", 
 				"Address": "331 St. John St.",
-				"Description": "In the 1860's a grain mill called Edgewood Roller Mill stood at this site. It was one of the main suppliers of grain to 'The Graw' Racetrack. The Havre de Grace Banking and Trust was built over the foundation of the old mill and served the community for 50 years. In the 1970's the building was used as a beauty school. Later it was an antique store with two apartments above. In 1985 the building was renovated into a restaurant which became MacGregor's. The facade has smooth-faced blocks of limestone over a marble foundation. Built in the Renaissance revival style it may have designed by William Lewis Plack, the same architect who designed the Havre de Grace Methodist Church (tour stop 23). It is a polygonal-shaped building ornamented with copper fenestration.",
+				"Description": "In the 1860's a grain mill called Edgewood Roller Mill stood at this site. It was one of the main suppliers of grain to 'The Graw' Racetrack. The Havre de Grace Banking and Trust was built over the foundation of the old mill and served the community for 50 years. In the 1970's the building was used as a beauty school. Later it was an antique store with two apartments above. In 1985 the building was renovated into a restaurant which became MacGregor's. The facade has smooth-faced blocks of limestone over a marble foundation. Built in the Renaissance Revival style, it may have designed by William Lewis Plack, the same architect who designed the Havre de Grace Methodist Church (tour stop 23). It is a polygonal-shaped building ornamented with copper fenestration. This concludes your tour. The Havre de Grace Historic Preservation Commission thanks you for touring our National Register Historic District. We hope you visit again.",
 				"Footnote": ""
 			}
 		}
