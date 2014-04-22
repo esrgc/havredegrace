@@ -52,9 +52,16 @@ var init = function (onSelectFeatureFunction) {
             selectControl
         ],
         layers: [
-            new OpenLayers.Layer.OSM("OpenStreetMap", null, {
-                transitionEffect: 'resize'
-            }),
+            new OpenLayers.Layer.OSM("OpenStreetMap",[
+            		"http://otile1.mqcdn.com/tiles/1.0.0/osm/${z}/${x}/${y}.jpg",
+			   		"http://otile2.mqcdn.com/tiles/1.0.0/osm/${z}/${x}/${y}.jpg",
+			   		"http://otile3.mqcdn.com/tiles/1.0.0/osm/${z}/${x}/${y}.jpg",
+			   		"http://otile4.mqcdn.com/tiles/1.0.0/osm/${z}/${x}/${y}.jpg"
+			   	], 
+			   	{
+                	transitionEffect: 'resize'
+            	}
+            ),
             vector,
 			blueLayer.getColorLayer(),
             redLayer.getColorLayer(),
