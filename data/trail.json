@@ -150,7 +150,7 @@ var features = {
 				"Name": "The Wright-Henry House", 
 				"Date": "c. 1850", 
 				"Address": "322 North Union Avenue",
-				"Description": "This five-bay, two-story frame residence has windows on the street facade composed of six-over-six lights. There are paneled shutters on the first floor and louvered shutters on the second. Both brick chimneys are interior and the roof is hipped. The city hopes to help save this once lovely home that is now in a sadly deteriorated state.",
+				"Description": "This five-bay, two-story frame residence has windows on the street facade composed of six-over-six lights. There are paneled shutters on the first floor and louvered shutters on the second. Both brick chimneys are interior and the roof is hipped. This once lovely home is in a sadly deteriorated state. It's future is in question.",
 				"Footnote": ""
 			}
 		},
@@ -270,7 +270,7 @@ var features = {
 				"Name": "The Opera House", 
 				"Date": "1870", 
 				"Address": "121 North Union Avenue",
-				"Description": "This city-owned property has seen many uses. Originally the building served simultaneously as Town Hall and schoolhouse. Some remember a library here. Later it became the Opera House and City Hall. A fire in 1920 destroyed the third floor. The second floor is now home to the Tidewater Players, a local theater group. Currently there is talk of rehabbing the first floor to house the Visitor Center and a future Havre de Grace Historical Society.",
+				"Description": "This city-owned property has seen many uses. Originally the building served simultaneously as Town Hall and schoolhouse. Some remember a library here. Later it became the Opera House and City Hall. A fire in 1920 destroyed the third floor. The second floor is home to the Tidewater Players, a local theater group. The City of Havre de Grace plans a major renovation to enable this building to better serve the public. It will become a cultural center offering theater, music, film and art.",
 				"Footnote": ""
 			}
 		},
