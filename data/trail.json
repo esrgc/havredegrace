@@ -62,11 +62,11 @@ var features = {
 			"properties": {
 				"Photo": "4.jpg",
 				"Category": "red",
-				"Name": "The Matilda O&#39;Neil House", 
+				"Name": "The Matilda O&#39;Neill House", 
 				"Date": "1822", 
 				"Address": "420 North Union Avenue",
 				"Description": "In 1822 Lt. John O&#39;Neill<sup>2</sup> the hero of Havre de Grace, gave this house to his daughter Matilda as a wedding present. During the War of 1812, Matilda, 15, had her father&#39;s life spared at the hands of British Admiral George Cockburn. For her courage she was given a gold snuff box by this commander of the British attack upon Havre de Grace.",
-				"Footnote": "<sup>2</sup>John O&#39;Neil -  John O&#39;Neill is considered to be one of the most historically significant figures in the history of Havre de Grace because of his role in the war of 1812. On May 3, 1813, the British, led by Admiral George Cockburn, sailed toward Havre de grace after burning Principio Furnace, an iron foundry in Perryville. Havre de Grace had for defense a few cannons and some militia men. Lieutenant John O&#39;Neill, the only officer in the area, responded to the alarm by firing on the British. When the British began firing back, O&#39;Neill&#39;s men fled. The British, 400 in number by some accounts, came ashore, sacked and burned the town and captured O&#39;Neill. Subsequent to his capture and incarceration aboard a British vessel he was released by the intercession of his daughter, Matilda.",
+				"Footnote": "<sup>2</sup>John O&#39;Neill -  John O&#39;Neill is considered to be one of the most historically significant figures in the history of Havre de Grace because of his role in the war of 1812. On May 3, 1813, the British, led by Admiral George Cockburn, sailed toward Havre de Grace after burning Principio Furnace, an iron foundry in Perryville. Havre de Grace had for defense a few cannons and some militia men. Lieutenant John O&#39;Neill, the only officer in the area, responded to the alarm by firing on the British. When the British began firing back, O&#39;Neill&#39;s men fled. The British, 400 in number by some accounts, came ashore, sacked and burned the town and captured O&#39;Neill. Subsequent to his capture and incarceration aboard a British vessel he was released by the intercession of his daughter, Matilda.",
 			}
 		},
 		{ 
@@ -99,7 +99,7 @@ var features = {
 				"Name": "The Old Pitcock Hardware Building", 
 				"Date": "c. 1890", 
 				"Address": "408 North Union Avenue",
-				"Description": "Built between 1880 and 1890 by the Bowden family, the building operated as a hardware and sporting goods store. Purchased by the Pitcock family in 1928, it served them as Susquehanna Garage until 1925. This was one of the first car dealership in Harford County. They sold Indiana Trucks, Willys Knight and Overland cars. Later the building became Pitcock Brother's Hardware store from 1925-1988. The second floor was constructed as a spacious residence for the business owners with 12 foot ceilings, inlaid oak floors and leaded glass cabinetry. The current business is Bahouka&#39;s Antiques.",
+				"Description": "Built between 1880 and 1890 by the Bowden family, the building operated as a hardware and sporting goods store. Purchased by the Pitcock family in 1928, it served them as The Susquehanna Garage until 1925. This was one of the first car dealerships in Harford County. They sold Indiana Trucks, Willys Knight and Overland cars. Later the building became Pitcock Brother's Hardware store from 1925-1988. The second floor was constructed as a spacious residence for the business owners with 12 foot ceilings, inlaid oak floors and leaded glass cabinetry. The current business is Bahouka&#39;s Antiques.",
 				"Footnote": ""
 			}
 		},
@@ -116,7 +116,7 @@ var features = {
 				"Name": "The Old Chesapeake Hotel", 
 				"Date": "1896", 
 				"Address": "400 North Union Avenue",
-				"Description": "A three-story structure build as a hotel and restaurant, The Chesapeake Hotel has been serving patrons for over 100 years. Early pictures show a wide wrap-a-round porch. The hotel&#39;s heyday was during the years of the The Graw racetrack. Al Capone and his associates stayed here while visiting The Graw. In addition to horse trainers and jockeys, the hotel catered to traveling salesmen and railroad workers. After the racetrack closed, the building fell into disrepair. Later it became a rooming house for local veterans. In 1984 after extensive renovation, the restaurant opened as The Crazy Swede. Currently it is Chiapparelli&#39;s, an Italian restaurant, with guest suites on the second floor.",
+				"Description": "A three-story structure built as a hotel and restaurant, The Chesapeake Hotel has been serving patrons for over 100 years. Early pictures show a wide wrap-a-round porch. The hotel&#39;s heyday was during the years of the The Graw racetrack. Al Capone and his associates stayed here while visiting The Graw. In addition to horse trainers and jockeys, the hotel catered to traveling salesmen and railroad workers. After the racetrack closed, the building fell into disrepair. Later it became a rooming house for local veterans. In 1984 after extensive renovation, the restaurant opened as The Crazy Swede. Currently it is Chiapparelli&#39;s, an Italian restaurant, with guest suites on the second floor.",
 				"Footnote": ""
 			}
 		},
@@ -132,7 +132,7 @@ var features = {
 				"Category": "red",
 				"Name": "A.P. McCombs Building", 
 				"Date": "1900", 
-				"Address": "467 Franklin Streets (east side of Union Avenue; corner of North Union Ave. and Franklin St.)",
+				"Address": "467 Franklin Street (east side of Union Avenue; corner of North Union Ave. and Franklin St.)",
 				"Description": "Built in 1900 by A.P. McCombs, founder of The Havre Republican newspaper, now The Record, this building originally had a 3rd story with dormers. A fire in the 1970’s destroyed the top floor and it was never replaced. The Havre de Grace Post Office was located here from 1904 to 1937. After the post office moved to its new building, the main floor served as Pershing Photograph Studio from 1937 to the 1960’s. The second floor was used as a telephone switchboard office.",
 				"Footnote": ""
 			}
@@ -202,7 +202,7 @@ var features = {
 				"Name": "The Thomas Hopkins House", 
 				"Date": "1839", 
 				"Address": "229 North Union Avenue",
-				"Description": "This bricks structure was built as a residence for Dr. Hopkins, a physician. The house has two massive chimneys rising from a hipped roof. Dr. Hopkins was a member of the Maryland Legislature from 1842-1843 and again from 1865-1866. Note the three-story carriage house in the rear.",
+				"Description": "This brick structure was built as a residence for Dr. Hopkins, a physician. The house has two massive chimneys rising from a hipped roof. Dr. Hopkins was a member of the Maryland Legislature from 1842-1843 and again from 1865-1866. Note the three-story carriage house in the rear.",
 				"Footnote": ""
 			}
 		},
@@ -236,7 +236,7 @@ var features = {
 				"Name": "Seneca Mansion", 
 				"Date": "1885", 
 				"Address": "200 North Union Avenue",
-				"Description": "On the northwest corner of Union and Pennington Avenues is a Large Victorian residence built by Stephen J. Seneca, a wealthy local entrepreneur. Mr. Seneca, Mayor of Havre de Grace from 1893-1894, was a major influence on Havre de Grace architecture through his friendship with noted architect William Lewis Plack. The Seneca mansion is the largest of the Victorian homes of the grand style in town. Note the copper-covered turrets, the design of the brick chimneys, the bay windows, porches and dormer windows. Originally, a second story porch with turned balusters sat atop the first floor porch. In its original layout the Seneca Mansion consisted of 22 rooms. The exterior fabric is not original to the house.",
+				"Description": "On the northwest corner of Union and Pennington Avenues is a large Victorian residence built by Stephen J. Seneca, a wealthy local entrepreneur. Mr. Seneca, Mayor of Havre de Grace from 1893-1894, was a major influence on Havre de Grace architecture through his friendship with noted architect William Lewis Plack. The Seneca mansion is the largest of the Victorian homes of the grand style in town. Note the copper-covered turrets, the design of the brick chimneys, the bay windows, porches and dormer windows. Originally, a second story porch with turned balusters sat atop the first floor porch. In its original layout the Seneca Mansion consisted of 22 rooms. The exterior fabric is not original to the house.",
 				"Footnote": ""
 			}
 		},
@@ -338,7 +338,7 @@ var features = {
 				"Name": "The Maslin House", 
 				"Date": "1860", 
 				"Address": "100 South Washington Street",
-				"Description": "Maslin family members have lived in this home since its construction. Dick Maslin, the great grandfather of the current owner, was a Chesapeake Bay Boat pilot. Another Maslin ancestor was a lock house tender who resided in the Lock House. The fa&#231;ade of this frame cottage is unusual because it is built in the shape of a Greek cross. Note the original four-over-four double-hung windows, still in service after 150 years. The built-in bench seating on the front porch is inviting. The sun porch was enclosed in the 1920&#39;s. The two-story outbuilding was originally servant&#39;s quarters.",
+				"Description": "Maslin family members have lived in this home since its construction. Dick Maslin, the great grandfather of the current owner, was a Chesapeake Bay boat pilot. Another Maslin ancestor was a lock house tender who resided in the Lock House. The fa&#231;ade of this frame cottage is unusual because it is built in the shape of a Greek cross. Note the original four-over-four double-hung windows, still in service after 150 years. The built-in bench seating on the front porch is inviting. The sun porch was enclosed in the 1920&#39;s. The two-story outbuilding was originally servant&#39;s quarters.",
 				"Footnote": ""
 			}
 		},
@@ -458,7 +458,7 @@ var features = {
 				"Name": "Spencer-Silver Mansion", 
 				"Date": "1896", 
 				"Address": "200 South Union Avenue",
-				"Description": "This structure, along with the Seneca Mansion and the Vandiver Mansion, is one of the largest historic houses in Havre de Grace built as a private residence. Now a bed and breakfast inn, this random ashlar Port Deposit granite structure is the only High Victorian stone mansion in the city. It contains numerous architectural embellishments: a two-story bay window with curved glass, a tower, a four-gable roof, a dormer and a variety of window shapes and placements. The large veranda has a copper roof but the primary roof is slate. The house was constructed for John Spener, a merchant and foundry owner. Later it was purchased by Charles Silver, owner of a local cannery. Notice the carriage house in the rear, now part of the bed & breakfast inn.",
+				"Description": "This structure, along with the Seneca Mansion and the Vandiver Mansion, is one of the largest historic houses in Havre de Grace built as a private residence. Now a bed and breakfast inn, this random ashlar Port Deposit granite structure is the only High Victorian stone mansion in the city. It contains numerous architectural embellishments: a two-story bay window with curved glass, a tower, a four-gable roof, a dormer and a variety of window shapes and placements. The large veranda has a copper roof but the primary roof is slate. The house was constructed for John Spencer, a merchant and foundry owner. Later it was purchased by Charles Silver, owner of a local cannery. Notice the carriage house in the rear, now part of the bed & breakfast inn.",
 				"Footnote": ""
 			}
 		},
@@ -560,7 +560,7 @@ var features = {
 				"Name": "Tydings Memorial Park", 
 				"Date": "1956", 
 				"Address": "South end of South Union Avenue at Commerce Street",
-				"Description": "Citizens of Havre de Grace own this seven acre park with a magnificent view of the Susquehanna Flats. Originally called Bayside Park it was renamed to honor the City's famous native son, U.S. Senator  Millard E. Tydings (1890-1961). Tydings was a prominent Maryland politician. He was the author of the Philippine Independence Bill. He chaired the Senate Armed Services Committee during its review of Senator Joseph McCarthy's communist charges. Tydings notably labeled McCarthy's charges as 'the most nefarious campaign of half truths and untruths in the history of this Republic.' The park is the scene of various annual events including the 4th of July carnival and fireworks, Seafood Festival and the Havre de Grace Art Show. The charming gazebo dates to the early 1900's. It was restored in the late 1980's as a local boy's Eagle Scout project. At the water's edge is the City Yacht Basin and across the channel is Tydings Island. On the north side of the Yacht Basin is the entry to the Promenade, a boardwalk that follows the shoreline for a haft mile ending at the Lighthouse.",
+				"Description": "Citizens of Havre de Grace own this seven acre park with a magnificent view of the Susquehanna Flats. Originally called Bayside Park it was renamed to honor the City's famous native son, U.S. Senator  Millard E. Tydings (1890-1961). Tydings was a prominent Maryland politician. He was the author of the Philippine Independence Bill. He chaired the Senate Armed Services Committee during its review of Senator Joseph McCarthy's communist charges. Tydings notably labeled McCarthy's charges as 'the most nefarious campaign of half truths and untruths in the history of this Republic.' The park is the scene of various annual events including the 4th of July carnival and fireworks, Seafood Festival and the Havre de Grace Art Show. The charming gazebo dates to the early 1900's. It was restored in the late 1980's as a local boy's Eagle Scout project. At the water's edge is the City Yacht Basin and across the channel is Tydings Island. On the north side of the Yacht Basin is the entry to the Promenade, a boardwalk that follows the shoreline for a half mile ending at the Lighthouse.",
 				"Footnote": ""
 			}
 		},
@@ -612,7 +612,7 @@ var features = {
 				"Name": "Decoy Museum", 
 				"Date": "est. 1982", 
 				"Address": "215 Giles Street at Market Street (the east end of Giles St. has been renamed R. Madison Mitchell Place and is the entrance to the museum.)",
-				"Description": "This stucco-over-brick structure was originally a service building for the Bayou Hotel and housed an Olympic-sized swimming pool. Its conversion to a museum was started in 1982 by a group of volunteers dedicated to preserving the art of decoy carving. It was rehabilitated, enlarged and opened to the public in 1986. Complete collections of decoys made by R. Madison Mitchell, Charlie Joiner, Charlie Bryant, Bob McGaw and others are on view here. Also displayed are various tools and equipment used in decoy making.  R. Madison Mitchell's shop, where he made his famous decoys, was moved from its site behind the Mitchell home to its present location adjacent to the museum. On the grounds is another entry to the Promenade and a brick walkiway serving as an alternate route to the Maritime Museum and the Concorde Point Lighthouse.",
+				"Description": "This stucco-over-brick structure was originally a service building for the Bayou Hotel and housed an Olympic-sized swimming pool. Its conversion to a museum was started in 1982 by a group of volunteers dedicated to preserving the art of decoy carving. It was rehabilitated, enlarged and opened to the public in 1986. Complete collections of decoys made by R. Madison Mitchell, Charlie Joiner, Charlie Bryant, Bob McGaw and others are on view here. Also displayed are various tools and equipment used in decoy making.  R. Madison Mitchell's shop, where he made his famous decoys, was moved from its site behind the Mitchell home to its present location adjacent to the museum. On the grounds is another entry to the Promenade and a brick walkiway serving as an alternate route to the Maritime Museum and the Concord Point Lighthouse.",
 				"Footnote": ""
 			}
 		},
@@ -648,7 +648,7 @@ var features = {
 				"Date": "c. 1850", 
 				"Address": "814 South Market Street",
 				"Description": "Few facts are known about this home's early history. Captain John Millhuff, a prominent citizen of Harve de Grace prior to the war of 1812, may have lived here, putting its construction date much earlier. It is a Federal style home which was occupied by Jane Jacksteit (1917-2007) and her husband Bert from the mid 1970's until Jane's death. Jane is notable as a founding member of the Friends of the Concord Point Lighthouse.",
-				"Footnote": "Neighboring house 810, 820 and 826 Market St. all date between 1830 and 1840."
+				"Footnote": "Neighboring houses 810, 820 and 826 Market St. all date between 1830 and 1840."
 			}
 		},
 		{ 
@@ -944,7 +944,7 @@ var features = {
 				"Name": "The State Theater", 
 				"Date": "1927", 
 				"Address": "325 St. John St.",
-				"Description": "A beloved Havre de Grace landmark, the State Theater was a 500 seat movie theater built by Baltimore-based exhibitor, Durkee Enterprises. The brick structure was design in the style of many theaters of the day. Havre de Grace, being the largest city in the area, had two movie houses by 1908, the Willou and the Bijou. Old postcards show the Willou to the left of the First National Bank and the Bijou, next door to the Willou. Both were replaced by The State Theater. Many Havre de Gracians have fond memories of seeing movies and attending the annual children's Christmas parties held here in the 1940's and 50's. The theater closed around 1960.",
+				"Description": "A beloved Havre de Grace landmark, the State Theater was a 500 seat movie theater built by Baltimore-based exhibitor, Durkee Enterprises. The brick structure was designed in the style of many theaters of the day. Havre de Grace, being the largest city in the area, had two movie houses by 1908, the Willou and the Bijou. Old postcards show the Willou to the left of the First National Bank and the Bijou, next door to the Willou. Both were replaced by The State Theater. Many Havre de Gracians have fond memories of seeing movies and attending the annual children's Christmas parties held here in the 1940's and 50's. The theater closed around 1960.",
 				"Footnote": ""
 			}
 		},
@@ -978,8 +978,8 @@ var features = {
 				"Name": "The Havre de Grace Banking and Trust Building", 
 				"Date": "1924", 
 				"Address": "331 St. John St.",
-				"Description": "In the 1860's a grain mill called Edgewood Roller Mill stood at this site. It was one of the main suppliers of grain to 'The Graw' Racetrack. The Havre de Grace Banking and Trust was built over the foundation of the old mill and served the community for 50 years. In the 1970's the building was used as a beauty school. Later it was an antique store with two apartments above. In 1985 the building was renovated into a restaurant which became MacGregor's. The facade has smooth-faced blocks of limestone over a marble foundation. Built in the Renaissance Revival style, it may have designed by William Lewis Plack, the same architect who designed the Havre de Grace Methodist Church (tour stop 23). It is a polygonal-shaped building ornamented with copper fenestration.",
-				"Footnote": "This concludes your tour. The Havre de Grace Historic Preservation Commission thanks you for touring our National Register Historic District. We hope you visit again. To arrange a guided tour, contact Havre de a Grace Main Street at 410-939-1811 or visit <a href='www.mainstreethdg.com'>www.mainstreethdg.com</a>."
+				"Description": "In the 1860's a grain mill called Edgewood Roller Mill stood at this site. It was one of the main suppliers of grain to 'The Graw' Racetrack. The Havre de Grace Banking and Trust was built over the foundation of the old mill and served the community for 50 years. In the 1970's the building was used as a beauty school. Later it was an antique store with two apartments above. In 1985 the building was renovated into a restaurant which became MacGregor's. The facade has smooth-faced blocks of limestone over a marble foundation. Built in the Renaissance Revival style, it may have been designed by William Lewis Plack, the same architect who designed the Havre de Grace Methodist Church (tour stop 23). It is a polygonal-shaped building ornamented with copper fenestration.",
+				"Footnote": "This concludes your tour. The Havre de Grace Historic Preservation Commission thanks you for touring our National Register Historic District. We hope you visit again. To arrange a guided tour, contact Havre de Grace Main Street at 410-939-1811 or visit <a href='www.mainstreethdg.com'>www.mainstreethdg.com</a>."
 			}
 		}
 
